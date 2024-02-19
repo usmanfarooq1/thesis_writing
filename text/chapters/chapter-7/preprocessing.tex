@@ -4,7 +4,7 @@
 \chapter{Geo spatial data pre-processing pipeline}
 \begin{figure}[h]
     \centering
-    \includegraphics[width=1.0\linewidth]{figures/preprocessing_pipeline.png}
+    \includegraphics[width=1.0\linewidth]{figures/chapter-7/preprocessing_pipeline.png}
     \caption{geospatial preprocessing pipeline}
     \label{fig:preprocessingpipeline}
 \end{figure}
@@ -17,7 +17,7 @@ As our interest is in map projections, the purpose of the preprocessing pipeline
 \section{Data Raster}
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.75\linewidth]{figures/precipitation_raster_thesis.png}
+    \includegraphics[width=0.75\linewidth]{figures/chapter-7/precipitation_raster_thesis.png}
     \caption{Precipitation raster data with dimensions 96x144}
     \label{fig:precipitation-raster}
 \end{figure}
@@ -48,10 +48,10 @@ POLYGON ((0 0, 4 0, 4 4, 0 4, 0 0), (1 1, 1 2, 2 2, 2 1, 1 1))
 The European Petroleum Survey Group (EPSG) code is one of the other standards for encoding CRS. EPSG codes are primarily four digits long, but the number of code digits can increase. These codes are specific to only one projected reference system or coordinate systems of different types. The EPSG:4326 describes simple longitude and latitude pairs, which represent the Datum of WGS84.
 
 The Proj.4 strings do incorporate the projected reference system well. The main advantage of using the "Proj.4" strings is that they are human-readable. It is a string that provides different parameters to control the different aspects of the geographic or projected transformation. Here is an example of a "Proj.4" string.
-\ref{fig:proj-string-mercator} mercator
+
 \begin{figure}[h]
     \centering
-    \includegraphics[width=1.0\linewidth]{figures/proj_string_mercator.png}
+    \includegraphics[width=1.0\linewidth]{figures/chapter-7/proj_string_mercator.png}
     \caption{Proj.4 string for Mercator projection}
     \label{fig:proj-string-mercator}
 \end{figure}
@@ -59,7 +59,7 @@ The Proj.4 strings do incorporate the projected reference system well. The main 
 All the arguments in the "Proj.4" format string start with a plus (+) sign. The values are assigned to the arguments using an equal sign (=), just as one will do when handling the command line arguments with longer names. The most prominent arguments of the string are +proj and +type. The +type argument tells the PROJ software which type of transformation occurs in the string. The type of transformation is between coordinate reference systems. As mentioned in the earlier sections, the projected reference system is a coordinate reference system. The argument +proj tells the name of the projection. The above "Proj.4" string argument has the value of "merc," which indicates transformation happens to  Mercator projection.
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.5\linewidth]{figures/merc.png}
+    \includegraphics[width=0.5\linewidth]{figures/chapter-7/merc.png}
     \caption{Mercator projection (Source: \cite{PROJ_SITE})}
     \label{fig:mercator-projection}
 \end{figure}
@@ -89,7 +89,7 @@ The series of transformations are as follows:
 \end{itemize}
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.5\linewidth]{figures/d_reprojection_example.jpg}
+    \includegraphics[width=0.5\linewidth]{figures/chapter-7/d_reprojection_example.jpg}
     \caption{transformation between projected reference systems (Source \cite{PROJ_IMAGES})}
     \label{fig:transformation-between-projected-reference-systems}
 \end{figure}
@@ -115,7 +115,7 @@ For the experimentation, K-nearest neighbor regression is trained on the project
 The previous section explains the data transformation. The transformation function returns a mapping of the projected coordinates with the geographical data. This mapping is then used for the training of the k-nearest neighbor regressor. This regressor is trained by the hyperparameter of k=10. The machine learning library sklearn is used for the regression algorithms. This step returns a trained regressor, which is used in the further steps for generating the data raster.
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.5\linewidth]{figures/raster_interpolation.png}
+    \includegraphics[width=0.5\linewidth]{figures/chapter-7/raster_interpolation.png}
     \caption{K-nearest neighbor learning}
     \label{fig:knn-learning}
 \end{figure}

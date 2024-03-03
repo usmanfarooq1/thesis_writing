@@ -1,0 +1,936 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{jmse11051030}{article}{}
+      \name{author}{4}{}{%
+        {{hash=d2e5d07a42c6b2df5711f80a3ef1eb93}{%
+           family={Mao},
+           familyi={M\bibinitperiod},
+           given={Kai},
+           giveni={K\bibinitperiod}}}%
+        {{hash=9d9ac6815e27331ba6620def723e357f}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Chang},
+           giveni={C\bibinitperiod}}}%
+        {{hash=3c6aad3546a35def27ace863e7208c50}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Shaoqing},
+           giveni={S\bibinitperiod}}}%
+        {{hash=c8c5bb9f8ba6ff0df0521ea75cae9bda}{%
+           family={Gao},
+           familyi={G\bibinitperiod},
+           given={Feng},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{d9453f84b8987f35223750d2a0ba5b71}
+      \strng{fullhash}{89ba90584072f5de146b38687f0ba488}
+      \strng{bibnamehash}{89ba90584072f5de146b38687f0ba488}
+      \strng{authorbibnamehash}{89ba90584072f5de146b38687f0ba488}
+      \strng{authornamehash}{d9453f84b8987f35223750d2a0ba5b71}
+      \strng{authorfullhash}{89ba90584072f5de146b38687f0ba488}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Satellite remote sensing can provide observation information of the sea surface, and using the sea surface information to reconstruct the subsurface temperature (ST) and subsurface salinity (SS) information has significant application values. This study proposes an intelligent algorithm based on Dual Path Convolutional Neural Networks (DP-CNNs) to reconstruct the ST and SS. The DP-CNN can integrate known information including sea surface temperature (SST), sea surface salinity (SSS), and sea surface height (SSH) to reconstruct the ST and SS. The reconstruction model based on DP-CNN can solve the problem of detail information loss in traditional CNN (Convolutional Neural Network) models. This study performs experiments for the South China Sea under different seasons using reanalysis data. The experimental results show that the DP-CNN models have higher reconstruction accuracy than the CNN models, and this proves that DP-CNNs effectively mitigate the loss of detailed information in the CNN models. Compared with the ground truth data, the ST/SS reconstruction results of the DP-CNN model exhibited a high coefficient of determination (0.93/0.86) and a low root mean square error (around 0.31 &deg;C/0.05 PSU). Therefore, the DP-CNN models can be used as an effective approach to reconstruct ST and SS using sea surface information.}
+      \field{issn}{2077-1312}
+      \field{journaltitle}{Journal of Marine Science and Engineering}
+      \field{number}{5}
+      \field{title}{Reconstructing Ocean Subsurface Temperature and Salinity from Sea Surface Information Based on Dual Path Convolutional Neural Networks}
+      \field{volume}{11}
+      \field{year}{2023}
+      \verb{doi}
+      \verb 10.3390/jmse11051030
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/2077-1312/11/5/1030
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/2077-1312/11/5/1030
+      \endverb
+    \endentry
+    \entry{8913542}{article}{}
+      \name{author}{6}{}{%
+        {{hash=0a2d6aa72eaa7de7d7fb86cd378e2c3b}{%
+           family={Han},
+           familyi={H\bibinitperiod},
+           given={Mingxu},
+           giveni={M\bibinitperiod}}}%
+        {{hash=255212d23fce1d52114ec90391dc964d}{%
+           family={Feng},
+           familyi={F\bibinitperiod},
+           given={Yuan},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=af2e5291228f861b38243294147ab86a}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Xueli},
+           giveni={X\bibinitperiod}}}%
+        {{hash=c6f58343d7df9e0ba84a847f21e25e4c}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Chunjian},
+           giveni={C\bibinitperiod}}}%
+        {{hash=bbbab95df9d6bcc083a4aaa68f81d7bd}{%
+           family={Hong},
+           familyi={H\bibinitperiod},
+           given={Feng},
+           giveni={F\bibinitperiod}}}%
+        {{hash=09896aa5fbccc018f8f5276bd3c2cc51}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Chao},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{d77356689caea5b71d1f0acb2232a410}
+      \strng{fullhash}{2cee3951820b67ebb9ab2abdbefa1d87}
+      \strng{bibnamehash}{2cee3951820b67ebb9ab2abdbefa1d87}
+      \strng{authorbibnamehash}{2cee3951820b67ebb9ab2abdbefa1d87}
+      \strng{authornamehash}{d77356689caea5b71d1f0acb2232a410}
+      \strng{authorfullhash}{2cee3951820b67ebb9ab2abdbefa1d87}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Access}
+      \field{title}{A Convolutional Neural Network Using Surface Data to Predict Subsurface Temperatures in the Pacific Ocean}
+      \field{volume}{7}
+      \field{year}{2019}
+      \field{pages}{172816\bibrangedash 172829}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1109/ACCESS.2019.2955957
+      \endverb
+      \keyw{Ocean temperature;Sea surface;Data models;Temperature distribution;Satellites;Temperature measurement;Convolutional neural network;ocean data;satellite measurements;subsurface temperature}
+    \endentry
+    \entry{Weyn_2020}{article}{}
+      \name{author}{3}{}{%
+        {{hash=3b02550dc8de79cf229667ea258ca322}{%
+           family={Weyn},
+           familyi={W\bibinitperiod},
+           given={Jonathan\bibnamedelima A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=cbd3f98db952dd6b2aa064dd3ac2c5a1}{%
+           family={Durran},
+           familyi={D\bibinitperiod},
+           given={Dale\bibnamedelima R.},
+           giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=599c5251d489b92dc7856277d56cb1a9}{%
+           family={Caruana},
+           familyi={C\bibinitperiod},
+           given={Rich},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Geophysical Union (AGU)}%
+      }
+      \strng{namehash}{52cca987b821eef3b5f4bef16a3bcf71}
+      \strng{fullhash}{52cca987b821eef3b5f4bef16a3bcf71}
+      \strng{bibnamehash}{52cca987b821eef3b5f4bef16a3bcf71}
+      \strng{authorbibnamehash}{52cca987b821eef3b5f4bef16a3bcf71}
+      \strng{authornamehash}{52cca987b821eef3b5f4bef16a3bcf71}
+      \strng{authorfullhash}{52cca987b821eef3b5f4bef16a3bcf71}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1942-2466}
+      \field{journaltitle}{Journal of Advances in Modeling Earth Systems}
+      \field{month}{9}
+      \field{number}{9}
+      \field{title}{Improving Data‐Driven Global Weather Prediction Using Deep Convolutional Neural Networks on a Cubed Sphere}
+      \field{volume}{12}
+      \field{year}{2020}
+      \verb{doi}
+      \verb 10.1029/2020ms002109
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1029/2020MS002109
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1029/2020MS002109
+      \endverb
+    \endentry
+    \entry{DBLP:journals/corr/abs-2012-15000}{article}{}
+      \name{author}{4}{}{%
+        {{hash=1c45ec3985cdb526e1b18bf4041b4c22}{%
+           family={Defferrard},
+           familyi={D\bibinitperiod},
+           given={Michaël},
+           giveni={M\bibinitperiod}}}%
+        {{hash=e7da8e9e881d032b5aa3a4ccc8a8ae95}{%
+           family={Milani},
+           familyi={M\bibinitperiod},
+           given={Martino},
+           giveni={M\bibinitperiod}}}%
+        {{hash=a856ec0579df5fd53258a9cdef4c4982}{%
+           family={Gusset},
+           familyi={G\bibinitperiod},
+           given={Frédérick},
+           giveni={F\bibinitperiod}}}%
+        {{hash=c9234fd9939a5272d2f2af705c9f908f}{%
+           family={Perraudin},
+           familyi={P\bibinitperiod},
+           given={Nathanaël},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{298fda2ab2ba672abc53773503875286}
+      \strng{fullhash}{7be09902bbaa62422119c3191e33c874}
+      \strng{bibnamehash}{7be09902bbaa62422119c3191e33c874}
+      \strng{authorbibnamehash}{7be09902bbaa62422119c3191e33c874}
+      \strng{authornamehash}{298fda2ab2ba672abc53773503875286}
+      \strng{authorfullhash}{7be09902bbaa62422119c3191e33c874}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{CoRR}
+      \field{title}{DeepSphere: a graph-based spherical {CNN}}
+      \field{volume}{abs/2012.15000}
+      \field{year}{2020}
+      \verb{eprint}
+      \verb 2012.15000
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2012.15000
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2012.15000
+      \endverb
+    \endentry
+    \entry{PROJ_SITE}{manual}{}
+      \name{author}{1}{}{%
+        {{hash=c80f52dcc53c4685e382cb71a2c4fbbf}{%
+           family={{PROJ contributors}},
+           familyi={P\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Open Source Geospatial Foundation}%
+      }
+      \strng{namehash}{c80f52dcc53c4685e382cb71a2c4fbbf}
+      \strng{fullhash}{c80f52dcc53c4685e382cb71a2c4fbbf}
+      \strng{bibnamehash}{c80f52dcc53c4685e382cb71a2c4fbbf}
+      \strng{authorbibnamehash}{c80f52dcc53c4685e382cb71a2c4fbbf}
+      \strng{authornamehash}{c80f52dcc53c4685e382cb71a2c4fbbf}
+      \strng{authorfullhash}{c80f52dcc53c4685e382cb71a2c4fbbf}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{PROJ} coordinate transformation software library}
+      \field{year}{2023}
+      \verb{doi}
+      \verb 10.5281/zenodo.5884394
+      \endverb
+      \verb{urlraw}
+      \verb https://proj.org/
+      \endverb
+      \verb{url}
+      \verb https://proj.org/
+      \endverb
+    \endentry
+    \entry{EARTH_IMAGE}{online}{}
+      \name{author}{1}{}{%
+        {{hash=f702f2e4140da8ab1e69acf876180339}{%
+           family={{NASA Johnson Space Center}},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{f702f2e4140da8ab1e69acf876180339}
+      \strng{fullhash}{f702f2e4140da8ab1e69acf876180339}
+      \strng{bibnamehash}{f702f2e4140da8ab1e69acf876180339}
+      \strng{authorbibnamehash}{f702f2e4140da8ab1e69acf876180339}
+      \strng{authornamehash}{f702f2e4140da8ab1e69acf876180339}
+      \strng{authorfullhash}{f702f2e4140da8ab1e69acf876180339}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Earth: The Blue Marble}
+      \verb{urlraw}
+      \verb https://science.nasa.gov/resource/the-blue-marble/
+      \endverb
+      \verb{url}
+      \verb https://science.nasa.gov/resource/the-blue-marble/
+      \endverb
+    \endentry
+    \entry{GEODESY}{online}{}
+      \name{author}{1}{}{%
+        {{hash=ccf4fedea4dc4f2f8d4b497515012150}{%
+           family={{NOAA}},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{ccf4fedea4dc4f2f8d4b497515012150}
+      \strng{fullhash}{ccf4fedea4dc4f2f8d4b497515012150}
+      \strng{bibnamehash}{ccf4fedea4dc4f2f8d4b497515012150}
+      \strng{authorbibnamehash}{ccf4fedea4dc4f2f8d4b497515012150}
+      \strng{authornamehash}{ccf4fedea4dc4f2f8d4b497515012150}
+      \strng{authorfullhash}{ccf4fedea4dc4f2f8d4b497515012150}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{11}
+      \field{title}{What is geodesy?}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://oceanservice.noaa.gov/facts/geodesy.html
+      \endverb
+      \verb{url}
+      \verb https://oceanservice.noaa.gov/facts/geodesy.html
+      \endverb
+    \endentry
+    \entry{NOAA_GEOID}{online}{}
+      \name{author}{1}{}{%
+        {{hash=ccf4fedea4dc4f2f8d4b497515012150}{%
+           family={{NOAA}},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{ccf4fedea4dc4f2f8d4b497515012150}
+      \strng{fullhash}{ccf4fedea4dc4f2f8d4b497515012150}
+      \strng{bibnamehash}{ccf4fedea4dc4f2f8d4b497515012150}
+      \strng{authorbibnamehash}{ccf4fedea4dc4f2f8d4b497515012150}
+      \strng{authornamehash}{ccf4fedea4dc4f2f8d4b497515012150}
+      \strng{authorfullhash}{ccf4fedea4dc4f2f8d4b497515012150}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{11}
+      \field{title}{What is the geoid?}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://oceanservice.noaa.gov/facts/geoid.html
+      \endverb
+      \verb{url}
+      \verb https://oceanservice.noaa.gov/facts/geoid.html
+      \endverb
+    \endentry
+    \entry{GISGEO_GEOID}{online}{}
+      \name{author}{1}{}{%
+        {{hash=e797f903267c55882141d3c7ca691344}{%
+           family={{GISGeography}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{e797f903267c55882141d3c7ca691344}
+      \strng{fullhash}{e797f903267c55882141d3c7ca691344}
+      \strng{bibnamehash}{e797f903267c55882141d3c7ca691344}
+      \strng{authorbibnamehash}{e797f903267c55882141d3c7ca691344}
+      \strng{authornamehash}{e797f903267c55882141d3c7ca691344}
+      \strng{authorfullhash}{e797f903267c55882141d3c7ca691344}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{10}
+      \field{title}{The Geoid – Hypothetical Mean Sea Level}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://gisgeography.com/geoid-mean-sea-level/
+      \endverb
+      \verb{url}
+      \verb https://gisgeography.com/geoid-mean-sea-level/
+      \endverb
+    \endentry
+    \entry{GEOID_IMAGE}{online}{}
+      \name{author}{1}{}{%
+        {{hash=4d4e1f71cfff0fcd57ec631d1d87669f}{%
+           family={{GFZ German Research Centre for Geosciences}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{4d4e1f71cfff0fcd57ec631d1d87669f}
+      \strng{fullhash}{4d4e1f71cfff0fcd57ec631d1d87669f}
+      \strng{bibnamehash}{4d4e1f71cfff0fcd57ec631d1d87669f}
+      \strng{authorbibnamehash}{4d4e1f71cfff0fcd57ec631d1d87669f}
+      \strng{authornamehash}{4d4e1f71cfff0fcd57ec631d1d87669f}
+      \strng{authorfullhash}{4d4e1f71cfff0fcd57ec631d1d87669f}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Geoid: The Potsdam Gravity Potato}
+      \field{urlday}{19}
+      \field{urlmonth}{2}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.gfz-potsdam.de/en/press/infothek/mediathek/images/geoid-the-potsdam-gravity-potato
+      \endverb
+      \verb{url}
+      \verb https://www.gfz-potsdam.de/en/press/infothek/mediathek/images/geoid-the-potsdam-gravity-potato
+      \endverb
+    \endentry
+    \entry{Johns1959-og}{article}{}
+      \name{author}{1}{}{%
+        {{hash=4b932f51bb7a9f4fcd443ca1b9b8fa4f}{%
+           family={Johns},
+           familyi={J\bibinitperiod},
+           given={R\bibnamedelima K\bibnamedelima C},
+           giveni={R\bibinitperiod\bibinitdelim K\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{4b932f51bb7a9f4fcd443ca1b9b8fa4f}
+      \strng{fullhash}{4b932f51bb7a9f4fcd443ca1b9b8fa4f}
+      \strng{bibnamehash}{4b932f51bb7a9f4fcd443ca1b9b8fa4f}
+      \strng{authorbibnamehash}{4b932f51bb7a9f4fcd443ca1b9b8fa4f}
+      \strng{authornamehash}{4b932f51bb7a9f4fcd443ca1b9b8fa4f}
+      \strng{authorfullhash}{4b932f51bb7a9f4fcd443ca1b9b8fa4f}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the Royal Astronomical Society of Canada}
+      \field{title}{The Figure of the Earth''}
+      \field{volume}{53}
+      \field{year}{1959}
+    \endentry
+    \entry{GISGEO_LatLon}{online}{}
+      \name{author}{1}{}{%
+        {{hash=e797f903267c55882141d3c7ca691344}{%
+           family={{GISGeography}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{e797f903267c55882141d3c7ca691344}
+      \strng{fullhash}{e797f903267c55882141d3c7ca691344}
+      \strng{bibnamehash}{e797f903267c55882141d3c7ca691344}
+      \strng{authorbibnamehash}{e797f903267c55882141d3c7ca691344}
+      \strng{authornamehash}{e797f903267c55882141d3c7ca691344}
+      \strng{authorfullhash}{e797f903267c55882141d3c7ca691344}
+      \field{extraname}{2}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{10}
+      \field{title}{Latitude, Longitude and Coordinate System Grids}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://gisgeography.com/latitude-longitude-coordinates/
+      \endverb
+      \verb{url}
+      \verb https://gisgeography.com/latitude-longitude-coordinates/
+      \endverb
+    \endentry
+    \entry{GISGEO_Ellipsoid}{online}{}
+      \name{author}{1}{}{%
+        {{hash=e797f903267c55882141d3c7ca691344}{%
+           family={{GISGeography}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{e797f903267c55882141d3c7ca691344}
+      \strng{fullhash}{e797f903267c55882141d3c7ca691344}
+      \strng{bibnamehash}{e797f903267c55882141d3c7ca691344}
+      \strng{authorbibnamehash}{e797f903267c55882141d3c7ca691344}
+      \strng{authornamehash}{e797f903267c55882141d3c7ca691344}
+      \strng{authorfullhash}{e797f903267c55882141d3c7ca691344}
+      \field{extraname}{3}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{10}
+      \field{title}{Ellipsoid/Spheroid – Our Oblate Spheroid Planet Earth}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://gisgeography.com/ellipsoid-oblate-spheroid-earth/
+      \endverb
+      \verb{url}
+      \verb https://gisgeography.com/ellipsoid-oblate-spheroid-earth/
+      \endverb
+    \endentry
+    \entry{Osserman2006-ys}{inbook}{}
+      \name{author}{1}{}{%
+        {{hash=114c839d9287e2fd9fb23a61058bac4a}{%
+           family={Osserman},
+           familyi={O\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{114c839d9287e2fd9fb23a61058bac4a}
+      \strng{fullhash}{114c839d9287e2fd9fb23a61058bac4a}
+      \strng{bibnamehash}{114c839d9287e2fd9fb23a61058bac4a}
+      \strng{authorbibnamehash}{114c839d9287e2fd9fb23a61058bac4a}
+      \strng{authornamehash}{114c839d9287e2fd9fb23a61058bac4a}
+      \strng{authorfullhash}{114c839d9287e2fd9fb23a61058bac4a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Ellipsoid, closed surface of which all plane cross sections are either ellipses or circles. An ellipsoid is symmetrical about three mutually perpendicular axes that intersect at the centre. If a, b, and c are the principal semiaxes, the general equation of such an ellipsoid is x2/a2 + y2/b2 + z2/c2}
+      \field{booktitle}{Encyclopedia Britannica}
+      \field{month}{8}
+      \field{title}{ellipsoid}
+      \field{year}{2006}
+    \endentry
+    \entry{GISGEO_WGS84}{online}{}
+      \name{author}{1}{}{%
+        {{hash=e797f903267c55882141d3c7ca691344}{%
+           family={{GISGeography}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{e797f903267c55882141d3c7ca691344}
+      \strng{fullhash}{e797f903267c55882141d3c7ca691344}
+      \strng{bibnamehash}{e797f903267c55882141d3c7ca691344}
+      \strng{authorbibnamehash}{e797f903267c55882141d3c7ca691344}
+      \strng{authornamehash}{e797f903267c55882141d3c7ca691344}
+      \strng{authorfullhash}{e797f903267c55882141d3c7ca691344}
+      \field{extraname}{4}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{09}
+      \field{title}{World Geodetic System (WGS84)}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://gisgeography.com/wgs84-world-geodetic-system/
+      \endverb
+      \verb{url}
+      \verb https://gisgeography.com/wgs84-world-geodetic-system/
+      \endverb
+    \endentry
+    \entry{Patrikalakis_Maekawa_2010}{book}{}
+      \name{author}{2}{}{%
+        {{hash=a39f29875f19f802625b87ea37ea2356}{%
+           family={Patrikalakis},
+           familyi={P\bibinitperiod},
+           given={Nicholas\bibnamedelima M.},
+           giveni={N\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=a7b46831b3ee2462bb7dc29773adf6ad}{%
+           family={Maekawa},
+           familyi={M\bibinitperiod},
+           given={Takashi},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{0bfc332f7578976e8fa3e5d24b9a01fc}
+      \strng{fullhash}{0bfc332f7578976e8fa3e5d24b9a01fc}
+      \strng{bibnamehash}{0bfc332f7578976e8fa3e5d24b9a01fc}
+      \strng{authorbibnamehash}{0bfc332f7578976e8fa3e5d24b9a01fc}
+      \strng{authornamehash}{0bfc332f7578976e8fa3e5d24b9a01fc}
+      \strng{authorfullhash}{0bfc332f7578976e8fa3e5d24b9a01fc}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Shape interrogation for Computer Aided Design and manufacturing}
+      \field{year}{2010}
+    \endentry
+    \entry{Snyder1982}{report}{}
+      \name{author}{1}{}{%
+        {{hash=794f7ace38eb3cc90a31999fadf47b78}{%
+           family={Snyder},
+           familyi={S\bibinitperiod},
+           given={John\bibnamedelima Parr},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=3fb34a268bc8c682da70f64e096341aa}{%
+           family={Office},
+           familyi={O\bibinitperiod},
+           given={U.S.\bibnamedelimi Government\bibnamedelima Printing},
+           giveni={U\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{location}{1}{%
+        {Washington, D.C.}%
+      }
+      \strng{namehash}{794f7ace38eb3cc90a31999fadf47b78}
+      \strng{fullhash}{794f7ace38eb3cc90a31999fadf47b78}
+      \strng{bibnamehash}{794f7ace38eb3cc90a31999fadf47b78}
+      \strng{authorbibnamehash}{794f7ace38eb3cc90a31999fadf47b78}
+      \strng{authornamehash}{794f7ace38eb3cc90a31999fadf47b78}
+      \strng{authorfullhash}{794f7ace38eb3cc90a31999fadf47b78}
+      \strng{editorbibnamehash}{3fb34a268bc8c682da70f64e096341aa}
+      \strng{editornamehash}{3fb34a268bc8c682da70f64e096341aa}
+      \strng{editorfullhash}{3fb34a268bc8c682da70f64e096341aa}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{Second Edition}
+      \field{note}{Report}
+      \field{series}{Bulletin}
+      \field{title}{Map projections used by the U.S. Geological Survey}
+      \field{type}{techreport}
+      \field{year}{1982}
+      \verb{doi}
+      \verb 10.3133/b1532
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.3133/b1532
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.3133/b1532
+      \endverb
+    \endentry
+    \entry{GISGEO_Cylinder}{online}{}
+      \name{author}{1}{}{%
+        {{hash=e797f903267c55882141d3c7ca691344}{%
+           family={{GISGeography}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{e797f903267c55882141d3c7ca691344}
+      \strng{fullhash}{e797f903267c55882141d3c7ca691344}
+      \strng{bibnamehash}{e797f903267c55882141d3c7ca691344}
+      \strng{authorbibnamehash}{e797f903267c55882141d3c7ca691344}
+      \strng{authornamehash}{e797f903267c55882141d3c7ca691344}
+      \strng{authorfullhash}{e797f903267c55882141d3c7ca691344}
+      \field{extraname}{5}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{11}
+      \field{title}{Cylindrical Projections in Cartography and Maps}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://gisgeography.com/cylindrical-projection/
+      \endverb
+      \verb{url}
+      \verb https://gisgeography.com/cylindrical-projection/
+      \endverb
+    \endentry
+    \entry{GISGEO_Tissot}{online}{}
+      \name{author}{1}{}{%
+        {{hash=e797f903267c55882141d3c7ca691344}{%
+           family={{GISGeography}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{e797f903267c55882141d3c7ca691344}
+      \strng{fullhash}{e797f903267c55882141d3c7ca691344}
+      \strng{bibnamehash}{e797f903267c55882141d3c7ca691344}
+      \strng{authorbibnamehash}{e797f903267c55882141d3c7ca691344}
+      \strng{authornamehash}{e797f903267c55882141d3c7ca691344}
+      \strng{authorfullhash}{e797f903267c55882141d3c7ca691344}
+      \field{extraname}{6}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{01}
+      \field{title}{Map Distortion with Tissot’s Indicatrix}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://gisgeography.com/map-distortion-tissots-indicatrix/
+      \endverb
+      \verb{url}
+      \verb https://gisgeography.com/map-distortion-tissots-indicatrix/
+      \endverb
+    \endentry
+    \entry{LeChun_5}{article}{}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labeltitlesource}{title}
+      \field{title}{Gradient-based learning applied to document recognition}
+      \field{year}{2001}
+    \endentry
+    \entry{deng2012mnist}{article}{}
+      \name{author}{1}{}{%
+        {{hash=2f5fbdc5c3cf91f62a64663cd72397b3}{%
+           family={Deng},
+           familyi={D\bibinitperiod},
+           given={Li},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{2f5fbdc5c3cf91f62a64663cd72397b3}
+      \strng{fullhash}{2f5fbdc5c3cf91f62a64663cd72397b3}
+      \strng{bibnamehash}{2f5fbdc5c3cf91f62a64663cd72397b3}
+      \strng{authorbibnamehash}{2f5fbdc5c3cf91f62a64663cd72397b3}
+      \strng{authornamehash}{2f5fbdc5c3cf91f62a64663cd72397b3}
+      \strng{authorfullhash}{2f5fbdc5c3cf91f62a64663cd72397b3}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Signal Processing Magazine}
+      \field{number}{6}
+      \field{title}{The mnist database of handwritten digit images for machine learning research}
+      \field{volume}{29}
+      \field{year}{2012}
+      \field{pages}{141\bibrangedash 142}
+      \range{pages}{2}
+    \endentry
+    \entry{PROJ_IMAGES}{online}{}
+      \name{author}{1}{}{%
+        {{hash=c2cd731d3bedcc9645cb048bc8ec3616}{%
+           family={{Michael Mann, Steven Chao, Christophe Van Neste, Roger Lew and Mark Isken}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{c2cd731d3bedcc9645cb048bc8ec3616}
+      \strng{fullhash}{c2cd731d3bedcc9645cb048bc8ec3616}
+      \strng{bibnamehash}{c2cd731d3bedcc9645cb048bc8ec3616}
+      \strng{authorbibnamehash}{c2cd731d3bedcc9645cb048bc8ec3616}
+      \strng{authornamehash}{c2cd731d3bedcc9645cb048bc8ec3616}
+      \strng{authorfullhash}{c2cd731d3bedcc9645cb048bc8ec3616}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{mmann1123/pyGIS: Clearer Satellites. Zenodo}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://doi.org/10.5281/zenodo.8215141
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.5281/zenodo.8215141
+      \endverb
+    \endentry
+    \entry{europa_rohs}{misc}{}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labeltitlesource}{title}
+      \field{note}{Document number: 02011L0065-20211101. \url{http://data.europa.eu/eli/dir/2011/65/2021-11-01} Accessed: June 2022}
+      \field{title}{{Directive 2011/65/EU of the European Parliament and of the Council of 8 June 2011 on the restriction of the use of certain hazardous substances in electrical and electronic equipment}}
+      \field{year}{2011}
+    \endentry
+    \entry{europa_ce}{misc}{}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labeltitlesource}{title}
+      \field{note}{Document number: 52016XC0726(02). \url{https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:52016XC0726(02)} Accessed: June 2022}
+      \field{title}{{Commission Notice - The ‘Blue Guide’ on the implementation of EU products rules 2016 (Text with EEA relevance)}}
+      \field{year}{2016}
+    \endentry
+    \entry{proceedings_piezo}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{hash=ff2e81f3f114f19af4e345b7eb2f1a51}{%
+           family={Wenbin},
+           familyi={W\bibinitperiod},
+           given={Bai},
+           giveni={B\bibinitperiod}}}%
+        {{hash=0e37fe797f3438fca7c6d5bbd6fd7e80}{%
+           family={Kai},
+           familyi={K\bibinitperiod},
+           given={Li},
+           giveni={L\bibinitperiod}}}%
+        {{hash=bef356ce82b4fbdd1609eb17e41be24c}{%
+           family={Qingqing},
+           familyi={Q\bibinitperiod},
+           given={Gong},
+           giveni={G\bibinitperiod}}}%
+        {{hash=3417fc864a177d9abe9db2ed5b5db47a}{%
+           family={YaJun},
+           familyi={Y\bibinitperiod},
+           given={Ren},
+           giveni={R\bibinitperiod}}}%
+        {{hash=103f1ebe3129deb545ce95e2b4055acd}{%
+           family={Ze},
+           familyi={Z\bibinitperiod},
+           given={Niu},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{b3588b5f69c2a317624ffbea12005a58}
+      \strng{fullhash}{e68853be1542d5921237dfc0828b16af}
+      \strng{bibnamehash}{e68853be1542d5921237dfc0828b16af}
+      \strng{authorbibnamehash}{e68853be1542d5921237dfc0828b16af}
+      \strng{authornamehash}{b3588b5f69c2a317624ffbea12005a58}
+      \strng{authorfullhash}{e68853be1542d5921237dfc0828b16af}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{{2020 IEEE 4th International Conference on Frontiers of Sensors Technologies (ICFST)}}
+      \field{title}{Analysis and Design of Piezoelectric Sensor Conditioning Circuit}
+      \field{year}{2020}
+      \field{pages}{34\bibrangedash 38}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1109/ICFST51577.2020.9294764
+      \endverb
+    \endentry
+    \entry{SOFTWARE_ENGINEERING_9}{inbook}{}
+      \name{author}{1}{}{%
+        {{hash=70341b3bfcce7026902f4eb1e4111b58}{%
+           family={Sommerville},
+           familyi={S\bibinitperiod},
+           given={Ian},
+           giveni={I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Pearson}%
+      }
+      \strng{namehash}{70341b3bfcce7026902f4eb1e4111b58}
+      \strng{fullhash}{70341b3bfcce7026902f4eb1e4111b58}
+      \strng{bibnamehash}{70341b3bfcce7026902f4eb1e4111b58}
+      \strng{authorbibnamehash}{70341b3bfcce7026902f4eb1e4111b58}
+      \strng{authornamehash}{70341b3bfcce7026902f4eb1e4111b58}
+      \strng{authorfullhash}{70341b3bfcce7026902f4eb1e4111b58}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{chapter}{4: {Requirements} engineering}
+      \field{edition}{9}
+      \field{isbn}{978-0-13-703515-1}
+      \field{title}{{Software Engineering}}
+      \field{year}{2011}
+      \field{pages}{83\bibrangedash 117}
+      \range{pages}{35}
+    \endentry
+    \entry{IEEE315}{article}{}
+      \name{author}{1}{}{%
+        {{hash=d928e29fd0d37ba2d9dcacdc97865ec3}{%
+           family={{Institute of Electrical and Electronics Engineers (IEEE)}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{d928e29fd0d37ba2d9dcacdc97865ec3}
+      \strng{fullhash}{d928e29fd0d37ba2d9dcacdc97865ec3}
+      \strng{bibnamehash}{d928e29fd0d37ba2d9dcacdc97865ec3}
+      \strng{authorbibnamehash}{d928e29fd0d37ba2d9dcacdc97865ec3}
+      \strng{authornamehash}{d928e29fd0d37ba2d9dcacdc97865ec3}
+      \strng{authorfullhash}{d928e29fd0d37ba2d9dcacdc97865ec3}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Std 315-1975 (Reaffirmed 1993)}
+      \field{title}{{IEEE Standard American National Standard Canadian Standard Graphic Symbols for Electrical and Electronics Diagrams (Including Reference Designation Letters)}}
+      \field{year}{1993}
+      \field{pages}{i\bibrangedash 244}
+      \range{pages}{244}
+      \verb{doi}
+      \verb 10.1109/IEEESTD.1993.93397
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+
+\refsection{1}
+  \datalist[entry]{none/global//global/global}
+    \entry{own-article-1}{article}{}
+      \name{author}{2}{}{%
+        {{hash=a955f770389a73e0f3abc79130da362a}{%
+           family={Vega},
+           familyi={V\bibinitperiod},
+           given={Mara},
+           giveni={M\bibinitperiod}}}%
+        {{hash=33463d7bff1b56d1267d19b53a6502ec}{%
+           family={Ramirez},
+           familyi={R\bibinitperiod},
+           given={Javier},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{51fc0e302184f1f132c626574357cdf7}
+      \strng{fullhash}{51fc0e302184f1f132c626574357cdf7}
+      \strng{bibnamehash}{51fc0e302184f1f132c626574357cdf7}
+      \strng{authorbibnamehash}{51fc0e302184f1f132c626574357cdf7}
+      \strng{authornamehash}{51fc0e302184f1f132c626574357cdf7}
+      \strng{authorfullhash}{51fc0e302184f1f132c626574357cdf7}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Cybernetic Studies}
+      \field{number}{3}
+      \field{title}{Neural Augmentation and Techno-Spirituality}
+      \field{volume}{14}
+      \field{year}{2053}
+      \true{nocite}
+      \field{pages}{187\bibrangedash 212}
+      \range{pages}{26}
+    \endentry
+    \entry{own-article-2}{article}{}
+      \name{author}{2}{}{%
+        {{hash=188d77ad9521b1a6d9bc2019e7310c5c}{%
+           family={Jensen},
+           familyi={J\bibinitperiod},
+           given={Adam},
+           giveni={A\bibinitperiod}}}%
+        {{hash=6e2976d639d47119600a75849ded76e5}{%
+           family={Navarre},
+           familyi={N\bibinitperiod},
+           given={Aria},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{d2779aa8fdceaa253a7197b03362669d}
+      \strng{fullhash}{d2779aa8fdceaa253a7197b03362669d}
+      \strng{bibnamehash}{d2779aa8fdceaa253a7197b03362669d}
+      \strng{authorbibnamehash}{d2779aa8fdceaa253a7197b03362669d}
+      \strng{authornamehash}{d2779aa8fdceaa253a7197b03362669d}
+      \strng{authorfullhash}{d2779aa8fdceaa253a7197b03362669d}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{National Augmentation}
+      \field{number}{2}
+      \field{title}{On transhumanism and Global Power Struggles: A Post Augmentation Incident Analysis}
+      \field{volume}{32}
+      \field{year}{2052}
+      \true{nocite}
+      \field{pages}{75\bibrangedash 98}
+      \range{pages}{24}
+    \endentry
+    \entry{own-article-3}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=957039f137160365c9b9c3f2b61905af}{%
+           family={Spiegel},
+           familyi={S\bibinitperiod},
+           given={Spike},
+           giveni={S\bibinitperiod}}}%
+        {{hash=c4dc3ba4e1fb8e2d5d5b42057e959f43}{%
+           family={Black},
+           familyi={B\bibinitperiod},
+           given={Jet},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Convention Center, Mars City}%
+      }
+      \list{organization}{1}{%
+        {Bounty Hunter Guild}%
+      }
+      \list{publisher}{1}{%
+        {Valentine Publications}%
+      }
+      \strng{namehash}{ced82bc6469ad68b5bbc80175bcdcc0e}
+      \strng{fullhash}{ced82bc6469ad68b5bbc80175bcdcc0e}
+      \strng{bibnamehash}{ced82bc6469ad68b5bbc80175bcdcc0e}
+      \strng{authorbibnamehash}{ced82bc6469ad68b5bbc80175bcdcc0e}
+      \strng{authornamehash}{ced82bc6469ad68b5bbc80175bcdcc0e}
+      \strng{authorfullhash}{ced82bc6469ad68b5bbc80175bcdcc0e}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Space Bounty Hunter Conference}
+      \field{month}{6}
+      \field{title}{The Art of Bounty Hunting to the Rhythm of Jazz}
+      \field{year}{2071}
+      \field{pages}{45\bibrangedash 50}
+      \range{pages}{6}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

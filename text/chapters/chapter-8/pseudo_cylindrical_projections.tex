@@ -90,7 +90,15 @@
 \end{figure}
 
 \subsection{Loximuthal}
-\subsection{Results}
+\subsection{Results and Observations}
+\begin{itemize}
+    \item The figures \ref{fig:robin_loss} \ref{fig:goode_loss} \ref{fig:sinu_loss} depict the training loss for the 3 of the 4 pseudocylindrical projections, the training and the validation loss value starts from a very high value of 1. All of the models are trended towards the overfitting trend,
+          but the loss values are not decreasing as compared to the cylindrical projections.
+    \item The overfitting trends are occuring in the robinson projection at epoch 8.
+    \item The trend of overfitting in goode homolosine projected data is at epoch 7 and for the sinusoidal model it is on the 4th epoch.
+    \item For the loximuthal projection the loss value is 0.690 and the validation loss is 0.716, even this projection is subjected to overfitting.
+    \item The results in the table ~\ref{pseudo_cylindrical_results_table} for predictions as compared to cylindrical projections is worst.
+\end{itemize}
 \begin{table}[ht]
     \centering
     \caption{Summary of Pseudocylindrical Projection Model Performance}

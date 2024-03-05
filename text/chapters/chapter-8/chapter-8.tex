@@ -5,7 +5,16 @@
 \chapter{Experiments \& Results}
 
 \label{chap:experiments_results}
-@TODO add opening of experimental and results [usman]
+
+In this chapter, we will analyze the outcomes of our extensive experimentation with various map projections and their impact on the performance
+of Convolutional Neural Networks (CNNs), specifically focusing on the U-Net architecture. By systematically applying these models to various types of
+map projections—cylindrical, pseudocylindrical, conic, and planar—we aim to clarify the subtle impacts these projections have on the accuracy and efficiency of
+geospatial data analysis. This inquiry is rooted in a comprehensive experimental structure devised to evaluate the model's capacity to forecast precipitation patterns
+from geospatial data inputs, thereby furnishing valuable insights into the optimal utilization of CNNs in the realm of geospatial analysis. Through this section,
+we strive to bridge the divide between theoretical knowledge and practical implementation, making a significant contribution to the advancement of the field by
+highlighting potential avenues for future research.
+
+@TODO review [usman]
 % The experimentation is conducted on four different types of map projections, namely Cylindrical, Pseudocylindrical, Conic and Planar projections.
 % Then we have selected four map projections in each of the main projection types.
 % The U-Net model mentioned in \autoref{chap:approach} is trained for 20 epochs for each of the map projections. Initially 120 epochs were defined for the experimentation, for each of the models the phenomenon of overfitting started to occur over the training period, to mitigate the issue \textbf{early stopping} was deployed and each model was trained for 20 epochs.

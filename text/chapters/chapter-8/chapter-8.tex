@@ -10,7 +10,8 @@ Mean absolute error (MAE) is used as a metric for the evaluation of the model.
 
 16 datasets were generated for the experimentation, via the process of creating rasters as mentioned in \autoref{chap:preprocess}. The loss and the metrics discussed in the result section are the average results, as for each map projection dataset the U-Net model is trained four times mitigating the issue of randomness in the networks parameters.
 \section{Cylindrical Projections}
-The five cylindrical map projections used for the expertimention are Mercator, Plate Carree, Cylindrical Equal Area, General Oblique Transformation, and Transverse Cylindrical Equal Area. The selection of the map projections in done based on the underlying properties of the cylindrical map projections.
+The four cylindrical map projections used for the expertimention are Mercator, Plate Carree, Cylindrical Equal Area, and General Oblique Transformation. The selection of the map projections in done based on the underlying properties of the cylindrical map projections.
+
 \subsubsection*{Mercator}
 \begin{figure}[h]
     \centering
@@ -32,6 +33,13 @@ The five cylindrical map projections used for the expertimention are Mercator, P
         \caption{Precipitation raster data as Mercator projected}
         \label{fig:merc_prect_raster}
     \end{minipage}\hfill
+\end{figure}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=1.0\linewidth]{figures/chapter-8/merc_loss.png}
+    \caption{Mercator: Averaged training loss of models  }
+    \label{fig:merc_loss}
 \end{figure}
 
 \newpage
@@ -60,7 +68,12 @@ The five cylindrical map projections used for the expertimention are Mercator, P
     \end{minipage}\hfill
 \end{figure}
 
-
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=1.0\linewidth]{figures/chapter-8/pc_loss.png}
+    \caption{Plate Carree: Averaged training loss of models  }
+    \label{fig:pc_loss}
+\end{figure}
 
 
 \subsubsection*{Cylindrical Equal Area}
@@ -87,6 +100,13 @@ The five cylindrical map projections used for the expertimention are Mercator, P
     \end{minipage}\hfill
 \end{figure}
 
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=1.0\linewidth]{figures/chapter-8/cea_loss.png}
+    \caption{Cylindrical Equal Area: Averaged training loss of models  }
+    \label{fig:cea_loss}
+\end{figure}
+
 \subsubsection*{General Oblique Transformation}
 \begin{figure}[h]
     \centering
@@ -110,6 +130,12 @@ The five cylindrical map projections used for the expertimention are Mercator, P
     \end{minipage}\hfill
 \end{figure}
 
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=1.0\linewidth]{figures/chapter-8/got_loss.png}
+    \caption{General Oblique Transformation: Averaged training loss of models  }
+    \label{fig:got_loss}
+\end{figure}
 \subsection{Results}
 
 \newpage

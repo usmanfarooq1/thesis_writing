@@ -48,8 +48,9 @@
       \strng{authorbibnamehash}{89ba90584072f5de146b38687f0ba488}
       \strng{authornamehash}{d9453f84b8987f35223750d2a0ba5b71}
       \strng{authorfullhash}{89ba90584072f5de146b38687f0ba488}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extraname}{1}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Satellite remote sensing can provide observation information of the sea surface, and using the sea surface information to reconstruct the subsurface temperature (ST) and subsurface salinity (SS) information has significant application values. This study proposes an intelligent algorithm based on Dual Path Convolutional Neural Networks (DP-CNNs) to reconstruct the ST and SS. The DP-CNN can integrate known information including sea surface temperature (SST), sea surface salinity (SSS), and sea surface height (SSH) to reconstruct the ST and SS. The reconstruction model based on DP-CNN can solve the problem of detail information loss in traditional CNN (Convolutional Neural Network) models. This study performs experiments for the South China Sea under different seasons using reanalysis data. The experimental results show that the DP-CNN models have higher reconstruction accuracy than the CNN models, and this proves that DP-CNNs effectively mitigate the loss of detailed information in the CNN models. Compared with the ground truth data, the ST/SS reconstruction results of the DP-CNN model exhibited a high coefficient of determination (0.93/0.86) and a low root mean square error (around 0.31 &deg;C/0.05 PSU). Therefore, the DP-CNN models can be used as an effective approach to reconstruct ST and SS using sea surface information.}
@@ -108,8 +109,8 @@
       \strng{authorbibnamehash}{2cee3951820b67ebb9ab2abdbefa1d87}
       \strng{authornamehash}{d77356689caea5b71d1f0acb2232a410}
       \strng{authorfullhash}{2cee3951820b67ebb9ab2abdbefa1d87}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{IEEE Access}
@@ -150,8 +151,8 @@
       \strng{authorbibnamehash}{52cca987b821eef3b5f4bef16a3bcf71}
       \strng{authornamehash}{52cca987b821eef3b5f4bef16a3bcf71}
       \strng{authorfullhash}{52cca987b821eef3b5f4bef16a3bcf71}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1942-2466}
@@ -200,8 +201,8 @@
       \strng{authorbibnamehash}{7be09902bbaa62422119c3191e33c874}
       \strng{authornamehash}{298fda2ab2ba672abc53773503875286}
       \strng{authorfullhash}{7be09902bbaa62422119c3191e33c874}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprinttype}{arXiv}
@@ -234,8 +235,8 @@
       \strng{authorbibnamehash}{c80f52dcc53c4685e382cb71a2c4fbbf}
       \strng{authornamehash}{c80f52dcc53c4685e382cb71a2c4fbbf}
       \strng{authorfullhash}{c80f52dcc53c4685e382cb71a2c4fbbf}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{PROJ} coordinate transformation software library}
@@ -262,8 +263,8 @@
       \strng{authorbibnamehash}{f702f2e4140da8ab1e69acf876180339}
       \strng{authornamehash}{f702f2e4140da8ab1e69acf876180339}
       \strng{authorfullhash}{f702f2e4140da8ab1e69acf876180339}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Earth: The Blue Marble}
@@ -287,8 +288,8 @@
       \strng{authornamehash}{ccf4fedea4dc4f2f8d4b497515012150}
       \strng{authorfullhash}{ccf4fedea4dc4f2f8d4b497515012150}
       \field{extraname}{1}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{11}
@@ -314,8 +315,8 @@
       \strng{authornamehash}{ccf4fedea4dc4f2f8d4b497515012150}
       \strng{authorfullhash}{ccf4fedea4dc4f2f8d4b497515012150}
       \field{extraname}{2}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{11}
@@ -341,8 +342,8 @@
       \strng{authornamehash}{e797f903267c55882141d3c7ca691344}
       \strng{authorfullhash}{e797f903267c55882141d3c7ca691344}
       \field{extraname}{1}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{10}
@@ -367,8 +368,8 @@
       \strng{authorbibnamehash}{4d4e1f71cfff0fcd57ec631d1d87669f}
       \strng{authornamehash}{4d4e1f71cfff0fcd57ec631d1d87669f}
       \strng{authorfullhash}{4d4e1f71cfff0fcd57ec631d1d87669f}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Geoid: The Potsdam Gravity Potato}
@@ -397,8 +398,8 @@
       \strng{authorbibnamehash}{4b932f51bb7a9f4fcd443ca1b9b8fa4f}
       \strng{authornamehash}{4b932f51bb7a9f4fcd443ca1b9b8fa4f}
       \strng{authorfullhash}{4b932f51bb7a9f4fcd443ca1b9b8fa4f}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of the Royal Astronomical Society of Canada}
@@ -419,8 +420,8 @@
       \strng{authornamehash}{e797f903267c55882141d3c7ca691344}
       \strng{authorfullhash}{e797f903267c55882141d3c7ca691344}
       \field{extraname}{2}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{10}
@@ -446,8 +447,8 @@
       \strng{authornamehash}{e797f903267c55882141d3c7ca691344}
       \strng{authorfullhash}{e797f903267c55882141d3c7ca691344}
       \field{extraname}{3}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{10}
@@ -474,8 +475,8 @@
       \strng{authorbibnamehash}{114c839d9287e2fd9fb23a61058bac4a}
       \strng{authornamehash}{114c839d9287e2fd9fb23a61058bac4a}
       \strng{authorfullhash}{114c839d9287e2fd9fb23a61058bac4a}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Ellipsoid, closed surface of which all plane cross sections are either ellipses or circles. An ellipsoid is symmetrical about three mutually perpendicular axes that intersect at the centre. If a, b, and c are the principal semiaxes, the general equation of such an ellipsoid is x2/a2 + y2/b2 + z2/c2}
@@ -497,8 +498,8 @@
       \strng{authornamehash}{e797f903267c55882141d3c7ca691344}
       \strng{authorfullhash}{e797f903267c55882141d3c7ca691344}
       \field{extraname}{4}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{09}
@@ -533,8 +534,8 @@
       \strng{authorbibnamehash}{0bfc332f7578976e8fa3e5d24b9a01fc}
       \strng{authornamehash}{0bfc332f7578976e8fa3e5d24b9a01fc}
       \strng{authorfullhash}{0bfc332f7578976e8fa3e5d24b9a01fc}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Shape interrogation for Computer Aided Design and manufacturing}
@@ -570,8 +571,8 @@
       \strng{editorbibnamehash}{3fb34a268bc8c682da70f64e096341aa}
       \strng{editornamehash}{3fb34a268bc8c682da70f64e096341aa}
       \strng{editorfullhash}{3fb34a268bc8c682da70f64e096341aa}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{edition}{Second Edition}
@@ -603,8 +604,8 @@
       \strng{authornamehash}{e797f903267c55882141d3c7ca691344}
       \strng{authorfullhash}{e797f903267c55882141d3c7ca691344}
       \field{extraname}{5}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{11}
@@ -630,8 +631,8 @@
       \strng{authornamehash}{e797f903267c55882141d3c7ca691344}
       \strng{authorfullhash}{e797f903267c55882141d3c7ca691344}
       \field{extraname}{6}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{01}
@@ -645,8 +646,8 @@
       \endverb
     \endentry
     \entry{LeChun_5}{article}{}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labeltitlesource}{title}
       \field{title}{Gradient-based learning applied to document recognition}
       \field{year}{2001}
@@ -668,8 +669,8 @@
       \strng{authorbibnamehash}{2f5fbdc5c3cf91f62a64663cd72397b3}
       \strng{authornamehash}{2f5fbdc5c3cf91f62a64663cd72397b3}
       \strng{authorfullhash}{2f5fbdc5c3cf91f62a64663cd72397b3}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{IEEE Signal Processing Magazine}
@@ -679,6 +680,534 @@
       \field{year}{2012}
       \field{pages}{141\bibrangedash 142}
       \range{pages}{2}
+    \endentry
+    \entry{simonyan2015deep}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=9d16b7284df92c9adaee86c37ab992df}{%
+           family={Simonyan},
+           familyi={S\bibinitperiod},
+           given={Karen},
+           giveni={K\bibinitperiod}}}%
+        {{hash=c72fc39e94030f67717052309266a44d}{%
+           family={Zisserman},
+           familyi={Z\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{25d2f3c4577a6632d37f0126cc781232}
+      \strng{fullhash}{25d2f3c4577a6632d37f0126cc781232}
+      \strng{bibnamehash}{25d2f3c4577a6632d37f0126cc781232}
+      \strng{authorbibnamehash}{25d2f3c4577a6632d37f0126cc781232}
+      \strng{authornamehash}{25d2f3c4577a6632d37f0126cc781232}
+      \strng{authorfullhash}{25d2f3c4577a6632d37f0126cc781232}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.CV}
+      \field{eprinttype}{arXiv}
+      \field{title}{Very Deep Convolutional Networks for Large-Scale Image Recognition}
+      \field{year}{2015}
+      \verb{eprint}
+      \verb 1409.1556
+      \endverb
+    \endentry
+    \entry{woo2018cbam}{misc}{}
+      \name{author}{4}{}{%
+        {{hash=d2a3537691dc8a58afa60ad3349cc936}{%
+           family={Woo},
+           familyi={W\bibinitperiod},
+           given={Sanghyun},
+           giveni={S\bibinitperiod}}}%
+        {{hash=3ae800a0c99ee6a4f5220a4ec7273a9a}{%
+           family={Park},
+           familyi={P\bibinitperiod},
+           given={Jongchan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=796bd34af473b19f8c8038aa58262eb9}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Joon-Young},
+           giveni={J\bibinithyphendelim Y\bibinitperiod}}}%
+        {{hash=6d1ab3d0c6ded61b91ff3b155878558f}{%
+           family={Kweon},
+           familyi={K\bibinitperiod},
+           given={In\bibnamedelima So},
+           giveni={I\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{d214d7b5c081787633455cf134077150}
+      \strng{fullhash}{f2845c6d6bdba109b1276302b426eccd}
+      \strng{bibnamehash}{f2845c6d6bdba109b1276302b426eccd}
+      \strng{authorbibnamehash}{f2845c6d6bdba109b1276302b426eccd}
+      \strng{authornamehash}{d214d7b5c081787633455cf134077150}
+      \strng{authorfullhash}{f2845c6d6bdba109b1276302b426eccd}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.CV}
+      \field{eprinttype}{arXiv}
+      \field{title}{CBAM: Convolutional Block Attention Module}
+      \field{year}{2018}
+      \verb{eprint}
+      \verb 1807.06521
+      \endverb
+    \endentry
+    \entry{mao2023reconstructing}{article}{}
+      \name{author}{4}{}{%
+        {{hash=d2e5d07a42c6b2df5711f80a3ef1eb93}{%
+           family={Mao},
+           familyi={M\bibinitperiod},
+           given={Kai},
+           giveni={K\bibinitperiod}}}%
+        {{hash=9d9ac6815e27331ba6620def723e357f}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Chang},
+           giveni={C\bibinitperiod}}}%
+        {{hash=3c6aad3546a35def27ace863e7208c50}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Shaoqing},
+           giveni={S\bibinitperiod}}}%
+        {{hash=c8c5bb9f8ba6ff0df0521ea75cae9bda}{%
+           family={Gao},
+           familyi={G\bibinitperiod},
+           given={Feng},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {MDPI}%
+      }
+      \strng{namehash}{d9453f84b8987f35223750d2a0ba5b71}
+      \strng{fullhash}{89ba90584072f5de146b38687f0ba488}
+      \strng{bibnamehash}{89ba90584072f5de146b38687f0ba488}
+      \strng{authorbibnamehash}{89ba90584072f5de146b38687f0ba488}
+      \strng{authornamehash}{d9453f84b8987f35223750d2a0ba5b71}
+      \strng{authorfullhash}{89ba90584072f5de146b38687f0ba488}
+      \field{extraname}{2}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Marine Science and Engineering}
+      \field{number}{5}
+      \field{title}{Reconstructing Ocean Subsurface Temperature and Salinity from Sea Surface Information Based on Dual Path Convolutional Neural Networks}
+      \field{volume}{11}
+      \field{year}{2023}
+      \field{pages}{1030}
+      \range{pages}{1}
+    \endentry
+    \entry{trebing2021smaatunet}{misc}{}
+      \name{author}{3}{}{%
+        {{hash=245a91cc9261453f9895656e78ad24bc}{%
+           family={Trebing},
+           familyi={T\bibinitperiod},
+           given={Kevin},
+           giveni={K\bibinitperiod}}}%
+        {{hash=bc3701d3b7ea8dd10e3350ac3f4969e7}{%
+           family={Stanczyk},
+           familyi={S\bibinitperiod},
+           given={Tomasz},
+           giveni={T\bibinitperiod}}}%
+        {{hash=12aca96b73ab8ec90d7fbfc53dbf1696}{%
+           family={Mehrkanoon},
+           familyi={M\bibinitperiod},
+           given={Siamak},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{6f85073c6b233f0c429f55dabc40dc42}
+      \strng{fullhash}{6f85073c6b233f0c429f55dabc40dc42}
+      \strng{bibnamehash}{6f85073c6b233f0c429f55dabc40dc42}
+      \strng{authorbibnamehash}{6f85073c6b233f0c429f55dabc40dc42}
+      \strng{authornamehash}{6f85073c6b233f0c429f55dabc40dc42}
+      \strng{authorfullhash}{6f85073c6b233f0c429f55dabc40dc42}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.LG}
+      \field{eprinttype}{arXiv}
+      \field{title}{SmaAt-UNet: Precipitation Nowcasting using a Small Attention-UNet Architecture}
+      \field{year}{2021}
+      \verb{eprint}
+      \verb 2007.04417
+      \endverb
+    \endentry
+    \entry{ronneberger2015unet}{misc}{}
+      \name{author}{3}{}{%
+        {{hash=8e46da9de9e53ea5d37089897d69cdd9}{%
+           family={Ronneberger},
+           familyi={R\bibinitperiod},
+           given={Olaf},
+           giveni={O\bibinitperiod}}}%
+        {{hash=168e84ce3582cbc6bac5e2ebc3ef8442}{%
+           family={Fischer},
+           familyi={F\bibinitperiod},
+           given={Philipp},
+           giveni={P\bibinitperiod}}}%
+        {{hash=b452a32296958371572717940f900884}{%
+           family={Brox},
+           familyi={B\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{f23ccc5160c62c7866172335b2c76e11}
+      \strng{fullhash}{f23ccc5160c62c7866172335b2c76e11}
+      \strng{bibnamehash}{f23ccc5160c62c7866172335b2c76e11}
+      \strng{authorbibnamehash}{f23ccc5160c62c7866172335b2c76e11}
+      \strng{authornamehash}{f23ccc5160c62c7866172335b2c76e11}
+      \strng{authorfullhash}{f23ccc5160c62c7866172335b2c76e11}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.CV}
+      \field{eprinttype}{arXiv}
+      \field{title}{U-Net: Convolutional Networks for Biomedical Image Segmentation}
+      \field{year}{2015}
+      \verb{eprint}
+      \verb 1505.04597
+      \endverb
+    \endentry
+    \entry{rs15164068}{article}{}
+      \name{author}{6}{}{%
+        {{hash=0d4b3529948e50998c2d9a3a1279e344}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Wenjin},
+           giveni={W\bibinitperiod}}}%
+        {{hash=439729d29e60aa2c9c794092b6f167c6}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Shuyi},
+           giveni={S\bibinitperiod}}}%
+        {{hash=d6e9d053b4c19fbd9c64d3ebad3f7e7d}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Jingsong},
+           giveni={J\bibinitperiod}}}%
+        {{hash=1573e8af999ffcd37a9c2007af4bfb64}{%
+           family={Gao},
+           familyi={G\bibinitperiod},
+           given={Xiaoqian},
+           giveni={X\bibinitperiod}}}%
+        {{hash=da08cc5424c8a5eff44d574947c02082}{%
+           family={Ji},
+           familyi={J\bibinitperiod},
+           given={Jinlin},
+           giveni={J\bibinitperiod}}}%
+        {{hash=0bf35c8b7f8ca926b96ca548317fb4b8}{%
+           family={Dong},
+           familyi={D\bibinitperiod},
+           given={Changming},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{a21ce8afb12e15290907615b47611a17}
+      \strng{fullhash}{609908c22cc9e48b00884fbda93656a3}
+      \strng{bibnamehash}{609908c22cc9e48b00884fbda93656a3}
+      \strng{authorbibnamehash}{609908c22cc9e48b00884fbda93656a3}
+      \strng{authornamehash}{a21ce8afb12e15290907615b47611a17}
+      \strng{authorfullhash}{609908c22cc9e48b00884fbda93656a3}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2072-4292}
+      \field{journaltitle}{Remote Sensing}
+      \field{number}{16}
+      \field{title}{Artificial Intelligence Forecasting of Marine Heatwaves in the South China Sea Using a Combined U-Net and ConvLSTM System}
+      \field{volume}{15}
+      \field{year}{2023}
+      \verb{doi}
+      \verb 10.3390/rs15164068
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/2072-4292/15/16/4068
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/2072-4292/15/16/4068
+      \endverb
+    \endentry
+    \entry{cohen2018spherical}{misc}{}
+      \name{author}{4}{}{%
+        {{hash=edf134d8390d35f2ca53bbf823ba961e}{%
+           family={Cohen},
+           familyi={C\bibinitperiod},
+           given={Taco\bibnamedelima S.},
+           giveni={T\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=8269041a68cb53bcac4121f74a3b53cf}{%
+           family={Geiger},
+           familyi={G\bibinitperiod},
+           given={Mario},
+           giveni={M\bibinitperiod}}}%
+        {{hash=4e6c3354b2e76c4169e1c2326079b1e8}{%
+           family={Koehler},
+           familyi={K\bibinitperiod},
+           given={Jonas},
+           giveni={J\bibinitperiod}}}%
+        {{hash=53d2880ad8047b61cdae2c6b2803e763}{%
+           family={Welling},
+           familyi={W\bibinitperiod},
+           given={Max},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{7727b90054aebfa54e49a1d11f9e938a}
+      \strng{fullhash}{d982039469ad23387aeaa0e2c3a0c734}
+      \strng{bibnamehash}{d982039469ad23387aeaa0e2c3a0c734}
+      \strng{authorbibnamehash}{d982039469ad23387aeaa0e2c3a0c734}
+      \strng{authornamehash}{7727b90054aebfa54e49a1d11f9e938a}
+      \strng{authorfullhash}{d982039469ad23387aeaa0e2c3a0c734}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.LG}
+      \field{eprinttype}{arXiv}
+      \field{title}{Spherical CNNs}
+      \field{year}{2018}
+      \verb{eprint}
+      \verb 1801.10130
+      \endverb
+    \endentry
+    \entry{towardsdatascienceGeometricDeep}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=32daac9ecdcf76e59f2a50b8682a0584}{%
+           family={McEwen},
+           familyi={M\bibinitperiod},
+           given={Jason},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{32daac9ecdcf76e59f2a50b8682a0584}
+      \strng{fullhash}{32daac9ecdcf76e59f2a50b8682a0584}
+      \strng{bibnamehash}{32daac9ecdcf76e59f2a50b8682a0584}
+      \strng{authorbibnamehash}{32daac9ecdcf76e59f2a50b8682a0584}
+      \strng{authornamehash}{32daac9ecdcf76e59f2a50b8682a0584}
+      \strng{authorfullhash}{32daac9ecdcf76e59f2a50b8682a0584}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://towardsdatascience.com/geometric-deep-learning-for-spherical-data-55612742d05f}}
+      \field{note}{[Accessed 03-03-2024]}
+      \field{title}{{G}eometric {D}eep {L}earning for {S}pherical {D}ata --- towardsdatascience.com}
+    \endentry
+    \entry{jiang2019spherical}{misc}{}
+      \name{author}{6}{}{%
+        {{hash=5243bef7c943b9f1d9b8adf7f32a2536}{%
+           family={Jiang},
+           familyi={J\bibinitperiod},
+           given={Chiyu\bibnamedelima "Max"},
+           giveni={C\bibinitperiod\bibinitdelim "\bibinitperiod}}}%
+        {{hash=94a5e5d0cb4fe5324a71e5d04b0256e6}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Jingwei},
+           giveni={J\bibinitperiod}}}%
+        {{hash=4a3e85c858b9a959e43705465ae86759}{%
+           family={Kashinath},
+           familyi={K\bibinitperiod},
+           given={Karthik},
+           giveni={K\bibinitperiod}}}%
+        {{hash=5b58310de93bc052c8e6b94280fd12ea}{%
+           family={Prabhat},
+           familyi={P\bibinitperiod}}}%
+        {{hash=45cd33dc57949f02cb2e172db039382e}{%
+           family={Marcus},
+           familyi={M\bibinitperiod},
+           given={Philip},
+           giveni={P\bibinitperiod}}}%
+        {{hash=82c4dadb511b07b4881a6413cd640659}{%
+           family={Niessner},
+           familyi={N\bibinitperiod},
+           given={Matthias},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{cffe8fb95a17d81928068db57b15b864}
+      \strng{fullhash}{3733510e70ef71b76d11655b7cb4d1ee}
+      \strng{bibnamehash}{3733510e70ef71b76d11655b7cb4d1ee}
+      \strng{authorbibnamehash}{3733510e70ef71b76d11655b7cb4d1ee}
+      \strng{authornamehash}{cffe8fb95a17d81928068db57b15b864}
+      \strng{authorfullhash}{3733510e70ef71b76d11655b7cb4d1ee}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.CV}
+      \field{eprinttype}{arXiv}
+      \field{title}{Spherical CNNs on Unstructured Grids}
+      \field{year}{2019}
+      \verb{eprint}
+      \verb 1901.02039
+      \endverb
+    \endentry
+    \entry{zhao2019spherical}{misc}{}
+      \name{author}{9}{}{%
+        {{hash=7aca5d3bb7d5137087f9e373e5e47d52}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Fenqiang},
+           giveni={F\bibinitperiod}}}%
+        {{hash=4d7c6993b90f16d295cf2404c51d8965}{%
+           family={Xia},
+           familyi={X\bibinitperiod},
+           given={Shunren},
+           giveni={S\bibinitperiod}}}%
+        {{hash=4422e91674604668004f76f4fb92112c}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Zhengwang},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=2e57282cae7534c79e972cbc962f0f55}{%
+           family={Duan},
+           familyi={D\bibinitperiod},
+           given={Dingna},
+           giveni={D\bibinitperiod}}}%
+        {{hash=944d21a090d2fc32d2cdd40c7a346126}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Li},
+           giveni={L\bibinitperiod}}}%
+        {{hash=bb9b0d9c8cb21b85fd4b5f2d033a0035}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Weili},
+           giveni={W\bibinitperiod}}}%
+        {{hash=5eca427abbc316ffec10a02346358766}{%
+           family={Gilmore},
+           familyi={G\bibinitperiod},
+           given={John\bibnamedelima H},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=4be3a7080769a01b5a9027ae92b8c440}{%
+           family={Shen},
+           familyi={S\bibinitperiod},
+           given={Dinggang},
+           giveni={D\bibinitperiod}}}%
+        {{hash=56ba559f18e74cf681fe113aba3fa9af}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Gang},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{eacefd602f2a6bd0c2e71b5fb101d8a0}
+      \strng{fullhash}{d94d0b9752e131773431bce89f9f48a5}
+      \strng{bibnamehash}{eacefd602f2a6bd0c2e71b5fb101d8a0}
+      \strng{authorbibnamehash}{eacefd602f2a6bd0c2e71b5fb101d8a0}
+      \strng{authornamehash}{eacefd602f2a6bd0c2e71b5fb101d8a0}
+      \strng{authorfullhash}{d94d0b9752e131773431bce89f9f48a5}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.CV}
+      \field{eprinttype}{arXiv}
+      \field{title}{Spherical U-Net on Cortical Surfaces: Methods and Applications}
+      \field{year}{2019}
+      \verb{eprint}
+      \verb 1904.00906
+      \endverb
+    \endentry
+    \entry{mai2023sphere2vec}{misc}{}
+      \name{author}{8}{}{%
+        {{hash=3670e7a39d1c8a8d1c797f624772df56}{%
+           family={Mai},
+           familyi={M\bibinitperiod},
+           given={Gengchen},
+           giveni={G\bibinitperiod}}}%
+        {{hash=a430b6345b89e8dd80bfb355c2297756}{%
+           family={Xuan},
+           familyi={X\bibinitperiod},
+           given={Yao},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=43d04de95cc54bb5d7b8af01d89e19e6}{%
+           family={Zuo},
+           familyi={Z\bibinitperiod},
+           given={Wenyun},
+           giveni={W\bibinitperiod}}}%
+        {{hash=d6388c5c52cd35952d8cb685c51826cf}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Yutong},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=78372b7167d001d4c80db2b19d6a76f3}{%
+           family={Song},
+           familyi={S\bibinitperiod},
+           given={Jiaming},
+           giveni={J\bibinitperiod}}}%
+        {{hash=160929a7e6ceecdf3f7c9a13abd5ea35}{%
+           family={Ermon},
+           familyi={E\bibinitperiod},
+           given={Stefano},
+           giveni={S\bibinitperiod}}}%
+        {{hash=f8032db780b653246bf029dcbffb6859}{%
+           family={Janowicz},
+           familyi={J\bibinitperiod},
+           given={Krzysztof},
+           giveni={K\bibinitperiod}}}%
+        {{hash=d9e5985236f468da29059654cd8447c4}{%
+           family={Lao},
+           familyi={L\bibinitperiod},
+           given={Ni},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{c6c98a46291d423c859c2b07af437ee6}
+      \strng{fullhash}{1a06ca3e9415af28086be235141d1fe4}
+      \strng{bibnamehash}{c6c98a46291d423c859c2b07af437ee6}
+      \strng{authorbibnamehash}{c6c98a46291d423c859c2b07af437ee6}
+      \strng{authornamehash}{c6c98a46291d423c859c2b07af437ee6}
+      \strng{authorfullhash}{1a06ca3e9415af28086be235141d1fe4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.CV}
+      \field{eprinttype}{arXiv}
+      \field{title}{Sphere2Vec: A General-Purpose Location Representation Learning over a Spherical Surface for Large-Scale Geospatial Predictions}
+      \field{year}{2023}
+      \verb{eprint}
+      \verb 2306.17624
+      \endverb
+    \endentry
+    \entry{willi_rath_2023_7779883}{software}{}
+      \name{author}{3}{}{%
+        {{hash=385fc36a138112c3c675fc509220cf03}{%
+           family={Rath},
+           familyi={R\bibinitperiod},
+           given={Willi},
+           giveni={W\bibinitperiod}}}%
+        {{hash=7719c7327aaafa7eb40ec306e5f9b5cf}{%
+           family={MarcoLandtHayen},
+           familyi={M\bibinitperiod}}}%
+        {{hash=fe0b2fdc71ff268f396361c0483e7128}{%
+           family={nilsnevertree},
+           familyi={n\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Zenodo}%
+      }
+      \strng{namehash}{622aa1cd0c0cb035a65b58aa7890fb99}
+      \strng{fullhash}{622aa1cd0c0cb035a65b58aa7890fb99}
+      \strng{bibnamehash}{622aa1cd0c0cb035a65b58aa7890fb99}
+      \strng{authorbibnamehash}{622aa1cd0c0cb035a65b58aa7890fb99}
+      \strng{authornamehash}{622aa1cd0c0cb035a65b58aa7890fb99}
+      \strng{authorfullhash}{622aa1cd0c0cb035a65b58aa7890fb99}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{3}
+      \field{title}{{MarcoLandtHayen/climate\_index\_collection: Climate Index Collection based on Model Data (CICMoD) v2023.03.29.1}}
+      \field{version}{v2023.03.29.1}
+      \field{year}{2023}
+      \verb{doi}
+      \verb 10.5281/zenodo.7779883
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.5281/zenodo.7779883
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.5281/zenodo.7779883
+      \endverb
     \endentry
     \entry{PROJ_IMAGES}{online}{}
       \name{author}{1}{}{%
@@ -692,8 +1221,8 @@
       \strng{authorbibnamehash}{c2cd731d3bedcc9645cb048bc8ec3616}
       \strng{authornamehash}{c2cd731d3bedcc9645cb048bc8ec3616}
       \strng{authorfullhash}{c2cd731d3bedcc9645cb048bc8ec3616}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{mmann1123/pyGIS: Clearer Satellites. Zenodo}
@@ -704,231 +1233,6 @@
       \verb{url}
       \verb https://doi.org/10.5281/zenodo.8215141
       \endverb
-    \endentry
-    \entry{europa_rohs}{misc}{}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
-      \field{labeltitlesource}{title}
-      \field{note}{Document number: 02011L0065-20211101. \url{http://data.europa.eu/eli/dir/2011/65/2021-11-01} Accessed: June 2022}
-      \field{title}{{Directive 2011/65/EU of the European Parliament and of the Council of 8 June 2011 on the restriction of the use of certain hazardous substances in electrical and electronic equipment}}
-      \field{year}{2011}
-    \endentry
-    \entry{europa_ce}{misc}{}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
-      \field{labeltitlesource}{title}
-      \field{note}{Document number: 52016XC0726(02). \url{https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:52016XC0726(02)} Accessed: June 2022}
-      \field{title}{{Commission Notice - The ‘Blue Guide’ on the implementation of EU products rules 2016 (Text with EEA relevance)}}
-      \field{year}{2016}
-    \endentry
-    \entry{proceedings_piezo}{inproceedings}{}
-      \name{author}{5}{}{%
-        {{hash=ff2e81f3f114f19af4e345b7eb2f1a51}{%
-           family={Wenbin},
-           familyi={W\bibinitperiod},
-           given={Bai},
-           giveni={B\bibinitperiod}}}%
-        {{hash=0e37fe797f3438fca7c6d5bbd6fd7e80}{%
-           family={Kai},
-           familyi={K\bibinitperiod},
-           given={Li},
-           giveni={L\bibinitperiod}}}%
-        {{hash=bef356ce82b4fbdd1609eb17e41be24c}{%
-           family={Qingqing},
-           familyi={Q\bibinitperiod},
-           given={Gong},
-           giveni={G\bibinitperiod}}}%
-        {{hash=3417fc864a177d9abe9db2ed5b5db47a}{%
-           family={YaJun},
-           familyi={Y\bibinitperiod},
-           given={Ren},
-           giveni={R\bibinitperiod}}}%
-        {{hash=103f1ebe3129deb545ce95e2b4055acd}{%
-           family={Ze},
-           familyi={Z\bibinitperiod},
-           given={Niu},
-           giveni={N\bibinitperiod}}}%
-      }
-      \strng{namehash}{b3588b5f69c2a317624ffbea12005a58}
-      \strng{fullhash}{e68853be1542d5921237dfc0828b16af}
-      \strng{bibnamehash}{e68853be1542d5921237dfc0828b16af}
-      \strng{authorbibnamehash}{e68853be1542d5921237dfc0828b16af}
-      \strng{authornamehash}{b3588b5f69c2a317624ffbea12005a58}
-      \strng{authorfullhash}{e68853be1542d5921237dfc0828b16af}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{{2020 IEEE 4th International Conference on Frontiers of Sensors Technologies (ICFST)}}
-      \field{title}{Analysis and Design of Piezoelectric Sensor Conditioning Circuit}
-      \field{year}{2020}
-      \field{pages}{34\bibrangedash 38}
-      \range{pages}{5}
-      \verb{doi}
-      \verb 10.1109/ICFST51577.2020.9294764
-      \endverb
-    \endentry
-    \entry{SOFTWARE_ENGINEERING_9}{inbook}{}
-      \name{author}{1}{}{%
-        {{hash=70341b3bfcce7026902f4eb1e4111b58}{%
-           family={Sommerville},
-           familyi={S\bibinitperiod},
-           given={Ian},
-           giveni={I\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Pearson}%
-      }
-      \strng{namehash}{70341b3bfcce7026902f4eb1e4111b58}
-      \strng{fullhash}{70341b3bfcce7026902f4eb1e4111b58}
-      \strng{bibnamehash}{70341b3bfcce7026902f4eb1e4111b58}
-      \strng{authorbibnamehash}{70341b3bfcce7026902f4eb1e4111b58}
-      \strng{authornamehash}{70341b3bfcce7026902f4eb1e4111b58}
-      \strng{authorfullhash}{70341b3bfcce7026902f4eb1e4111b58}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{chapter}{4: {Requirements} engineering}
-      \field{edition}{9}
-      \field{isbn}{978-0-13-703515-1}
-      \field{title}{{Software Engineering}}
-      \field{year}{2011}
-      \field{pages}{83\bibrangedash 117}
-      \range{pages}{35}
-    \endentry
-    \entry{IEEE315}{article}{}
-      \name{author}{1}{}{%
-        {{hash=d928e29fd0d37ba2d9dcacdc97865ec3}{%
-           family={{Institute of Electrical and Electronics Engineers (IEEE)}},
-           familyi={I\bibinitperiod}}}%
-      }
-      \strng{namehash}{d928e29fd0d37ba2d9dcacdc97865ec3}
-      \strng{fullhash}{d928e29fd0d37ba2d9dcacdc97865ec3}
-      \strng{bibnamehash}{d928e29fd0d37ba2d9dcacdc97865ec3}
-      \strng{authorbibnamehash}{d928e29fd0d37ba2d9dcacdc97865ec3}
-      \strng{authornamehash}{d928e29fd0d37ba2d9dcacdc97865ec3}
-      \strng{authorfullhash}{d928e29fd0d37ba2d9dcacdc97865ec3}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{IEEE Std 315-1975 (Reaffirmed 1993)}
-      \field{title}{{IEEE Standard American National Standard Canadian Standard Graphic Symbols for Electrical and Electronics Diagrams (Including Reference Designation Letters)}}
-      \field{year}{1993}
-      \field{pages}{i\bibrangedash 244}
-      \range{pages}{244}
-      \verb{doi}
-      \verb 10.1109/IEEESTD.1993.93397
-      \endverb
-    \endentry
-  \enddatalist
-\endrefsection
-
-\refsection{1}
-  \datalist[entry]{none/global//global/global}
-    \entry{own-article-1}{article}{}
-      \name{author}{2}{}{%
-        {{hash=a955f770389a73e0f3abc79130da362a}{%
-           family={Vega},
-           familyi={V\bibinitperiod},
-           given={Mara},
-           giveni={M\bibinitperiod}}}%
-        {{hash=33463d7bff1b56d1267d19b53a6502ec}{%
-           family={Ramirez},
-           familyi={R\bibinitperiod},
-           given={Javier},
-           giveni={J\bibinitperiod}}}%
-      }
-      \strng{namehash}{51fc0e302184f1f132c626574357cdf7}
-      \strng{fullhash}{51fc0e302184f1f132c626574357cdf7}
-      \strng{bibnamehash}{51fc0e302184f1f132c626574357cdf7}
-      \strng{authorbibnamehash}{51fc0e302184f1f132c626574357cdf7}
-      \strng{authornamehash}{51fc0e302184f1f132c626574357cdf7}
-      \strng{authorfullhash}{51fc0e302184f1f132c626574357cdf7}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of Cybernetic Studies}
-      \field{number}{3}
-      \field{title}{Neural Augmentation and Techno-Spirituality}
-      \field{volume}{14}
-      \field{year}{2053}
-      \true{nocite}
-      \field{pages}{187\bibrangedash 212}
-      \range{pages}{26}
-    \endentry
-    \entry{own-article-2}{article}{}
-      \name{author}{2}{}{%
-        {{hash=188d77ad9521b1a6d9bc2019e7310c5c}{%
-           family={Jensen},
-           familyi={J\bibinitperiod},
-           given={Adam},
-           giveni={A\bibinitperiod}}}%
-        {{hash=6e2976d639d47119600a75849ded76e5}{%
-           family={Navarre},
-           familyi={N\bibinitperiod},
-           given={Aria},
-           giveni={A\bibinitperiod}}}%
-      }
-      \strng{namehash}{d2779aa8fdceaa253a7197b03362669d}
-      \strng{fullhash}{d2779aa8fdceaa253a7197b03362669d}
-      \strng{bibnamehash}{d2779aa8fdceaa253a7197b03362669d}
-      \strng{authorbibnamehash}{d2779aa8fdceaa253a7197b03362669d}
-      \strng{authornamehash}{d2779aa8fdceaa253a7197b03362669d}
-      \strng{authorfullhash}{d2779aa8fdceaa253a7197b03362669d}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{National Augmentation}
-      \field{number}{2}
-      \field{title}{On transhumanism and Global Power Struggles: A Post Augmentation Incident Analysis}
-      \field{volume}{32}
-      \field{year}{2052}
-      \true{nocite}
-      \field{pages}{75\bibrangedash 98}
-      \range{pages}{24}
-    \endentry
-    \entry{own-article-3}{inproceedings}{}
-      \name{author}{2}{}{%
-        {{hash=957039f137160365c9b9c3f2b61905af}{%
-           family={Spiegel},
-           familyi={S\bibinitperiod},
-           given={Spike},
-           giveni={S\bibinitperiod}}}%
-        {{hash=c4dc3ba4e1fb8e2d5d5b42057e959f43}{%
-           family={Black},
-           familyi={B\bibinitperiod},
-           given={Jet},
-           giveni={J\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {Convention Center, Mars City}%
-      }
-      \list{organization}{1}{%
-        {Bounty Hunter Guild}%
-      }
-      \list{publisher}{1}{%
-        {Valentine Publications}%
-      }
-      \strng{namehash}{ced82bc6469ad68b5bbc80175bcdcc0e}
-      \strng{fullhash}{ced82bc6469ad68b5bbc80175bcdcc0e}
-      \strng{bibnamehash}{ced82bc6469ad68b5bbc80175bcdcc0e}
-      \strng{authorbibnamehash}{ced82bc6469ad68b5bbc80175bcdcc0e}
-      \strng{authornamehash}{ced82bc6469ad68b5bbc80175bcdcc0e}
-      \strng{authorfullhash}{ced82bc6469ad68b5bbc80175bcdcc0e}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Space Bounty Hunter Conference}
-      \field{month}{6}
-      \field{title}{The Art of Bounty Hunting to the Rhythm of Jazz}
-      \field{year}{2071}
-      \field{pages}{45\bibrangedash 50}
-      \range{pages}{6}
     \endentry
   \enddatalist
 \endrefsection

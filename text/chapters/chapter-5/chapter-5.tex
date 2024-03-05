@@ -19,14 +19,13 @@ The dataset provides multiple features which are listed below:
 
 The features that we considered for the experimentation were the geopotential height and precipitation.
 Both of the datasets are timeseries data, where measurement for each feature is done by month for a 1000 year. Each of the datasets are explained in detail for the better understanding of the dataset.
-\newpage
 \subsection{Geopotential Height Dataset}
 It consists of 12000 geo referenced data points, where each geo referenced data point is a grid of (96x192) containing geopotential height value specific to a pair latitude and longitude.
 Each geo referenced data point does also contains a time value associated with it as well.
 
 96  is the total number of latitude values and  192 is the total number of longitude values, against which feature data is generated. The total number of geopotential height measurements for each month is 18816.
 
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.6\linewidth]{figures/chapter-5/data_original.png}
     \caption{Original geopotential height 96x192 grid }

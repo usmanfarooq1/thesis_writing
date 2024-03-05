@@ -1,0 +1,81 @@
+% 
+%            ,,                                        
+%          `7MM            _.o9                                
+%            MM                                             
+%  ,6"Yb.    MM  ,p6"bo   ,6"Yb.  M"""MMV  ,6"Yb.  `7Mb,od8 
+% 8)   MM    MM 6M'  OO  8)   MM  '  AMV  8)   MM    MM' "' 
+%  ,pm9MM    MM 8M        ,pm9MM    AMV    ,pm9MM    MM     
+% 8M   MM    MM YM.    , 8M   MM   AMV  , 8M   MM    MM     
+% `Moo9^Yo..JMML.YMbmd'  `Moo9^Yo.AMMmmmM `Moo9^Yo..JMML.   
+% 
+% 
+% Free, Open-Source Thesis template for LaTeX
+% https://github.com/dpmj/alcazar
+
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% PREAMBLE
+
+\documentclass[twoside, openright, 11pt]{report}
+
+
+% ------------------------------------------------------------------------------
+% Variables
+
+% Title for the title page 
+\newcommand{\thesisTitle}{Optimizing convolutional architectures for geospatial analysis in global earth system models}
+% Title for the pages' heading 
+\newcommand{\thesisTitleShort}{Optimizing convolutional architectures for geospatial analysis in global earth system models}
+
+\newcommand{\thesisType}{Master's Thesis}  % Bachelor's Thesis, Master's Thesis, PhD Thesis...
+\newcommand{\thesisDegree}{Master's Degree In Computer Sciences}  % Bachelor's Degree, Master's Degree, PhD...
+
+\newcommand{\thesisAuthor}{Syed Usman Farooq}
+\newcommand{\thesisTutor}{Msc. Yannick Wölker}
+\newcommand{\thesisProf}{Prof. Dr. Matthias Renz}
+
+\newcommand{\thesisYear}{2024}  % Date of the thesis' submission or defense 
+\newcommand{\thesisMonth}{June}
+\newcommand{\thesisDate}{{\thesisMonth} {\thesisYear}}
+\newcommand{\thesisAcademicCourse}{2076/2077}  % During which academic year(s) was the thesis developed
+
+\newcommand{\thesisSchool}{Universitat Politècnica de València}
+\newcommand{\thesisAddress}{Camí de Vera, s/n, 46022 València, Valencia, Spain}
+\newcommand{\thesisDepartment}{}
+
+\newcommand{\thesisKeywords}{Keyword 1, }
+% For the abstract and indexing
+
+
+% ------------------------------------------------------------------------------
+% Import document style
+\usepackage{style/alcazar}
+\usepackage{amsfonts}
+\usepackage{hyperref}
+
+
+% END PREAMBLE
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% BEGIN DOCUMENT
+
+\begin{document}
+
+% Titlepage, license, about, abstract, keywords, publications, acknowledgements, dedication and tables of contents
+\include{opening/opening.tex}
+
+% Glossary and acronyms
+\include{glossary/glossary.tex}
+
+% Chapters - main text
+\include{text/chapters/chapters.tex}
+
+% Bibliography
+\include{bibliography/bibliography.tex}
+
+
+\end{document}
+
+% END DOCUMENT
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+

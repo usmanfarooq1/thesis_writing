@@ -21,12 +21,12 @@
 \input{opening/titlepage.tex}
 
 % License
-\input{opening/license}
+% \input{opening/license}
 
 % About the document
 % Collaborators, repositories, social networks, links, etc.
 % Feel free to edit this doc:
-\input{opening/about}
+% \input{opening/about}
 
 % Abstract
 \input{opening/abstract}
@@ -40,7 +40,7 @@
 % Dedication
 % To whom do you dedicate the thesis? Or maybe include a quote, poem, etc. Free space for yourself.
 % Delete if you are too manly for these things
-\input{opening/dedication}
+% \input{opening/dedication}
 
 
 
@@ -59,39 +59,39 @@
 
 \begingroup
 
-    % Greatly compress space used by TOC, LOF and LOT
-    \renewcommand{\baselinestretch}{1}  % less spacing
-    \small  % smaller font size
-    \setlength{\parskip}{0mm}  % Paragraph skip 0mm
+% Greatly compress space used by TOC, LOF and LOT
+\renewcommand{\baselinestretch}{1}  % less spacing
+\small  % smaller font size
+\setlength{\parskip}{0mm}  % Paragraph skip 0mm
 
 
-    % List of Contents
-    {
-        \tableofcontents
-        
-        \addcontentsline{toc}{chapter}{Table of contents}
-    }
-    
-    % List of Figures
-    {
-        \listoffigures
-        \addcontentsline{toc}{chapter}{List of figures}
-    }
-    
-    % List of Tables
-    {
-        \listoftables
-        \addcontentsline{toc}{chapter}{List of tables}
-    }
-    
-    % List of Listings -- uncomment if necessary
-    {
-        % \listoflistings
-        % \addcontentsline{toc}{chapter}{List of listings}
+% List of Contents
+{
+    \tableofcontents
 
-        % \listof{lstlisting}{Code listings} % old code
-    }
-    
+    \addcontentsline{toc}{chapter}{Table of contents}
+}
+
+% List of Figures
+{
+    \listoffigures
+    \addcontentsline{toc}{chapter}{List of figures}
+}
+
+% List of Tables
+{
+    \listoftables
+    \addcontentsline{toc}{chapter}{List of tables}
+}
+
+% List of Listings -- uncomment if necessary
+{
+    % \listoflistings
+    % \addcontentsline{toc}{chapter}{List of listings}
+
+    % \listof{lstlisting}{Code listings} % old code
+}
+
 \endgroup
 
 % END OPENING

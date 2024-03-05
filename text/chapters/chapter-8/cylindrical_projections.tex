@@ -138,16 +138,16 @@ The trend for the training of the model
 \end{figure}
 \subsection{Results \& Observations}
 \begin{itemize}
-    \item The ~\ref{fig:merc_loss} shows the average training loss for the U-Net model mentioned in the \autoref{chap:approach}, it could be seen that model's training loss is stabalizing and the trend of the validation loss is on a decrease.
+    \item The Figure~\ref{fig:merc_loss} shows the average training loss for the U-Net model mentioned in the \autoref{chap:approach}, it could be seen that model's training loss is stabilizing and the trend of the validation loss is on a decrease.
           The model is being trained well for the Mercator projection, we need to consider the fact that we have trained a shallow model with less numbers of filters.
-    \item The ~\ref{fig:pc_loss} shows the average training loss decreasing and the trend of the validation loss is on an increase after the 17th epoch, with more training the model is on the path to overfit. Early stopping should have been used earlier for this projection dataset.
-    \item ~\ref{fig:cea_loss} depicts that the model in training is subjected to overfit very quickly in the training process. Just after the 7th epoch the model is overfitting.
-    \item ~\ref{fig:got_loss} shows, the model start to overfit from the 5th epoch.
-    \item As soon as the rasters which are generated to resolve some of the distortions occuring due to map projections the rasters.
+    \item The Figure~\ref{fig:pc_loss} shows the average training loss decreasing and the trend of the validation loss is on an increase after the 17th epoch, with more training the model is on the path to overfit. Early stopping should have been used earlier for this projection dataset.
+    \item Figure~\ref{fig:cea_loss} depicts that the model in training is subjected to overfit very quickly in the training process. Just after the 7th epoch the model is overfitting.
+    \item Figure~\ref{fig:got_loss} shows, the model start to overfit from the 5th epoch.
+    \item As soon as the rasters which are generated to resolve some of the distortions occurring due to map projections the rasters.
           The cylindrical equal area projection does resolve the distortion of area but is not able to perform well during the training of the model under observation.
           Same is the case with oblique general transformation projection, as it brings the north polar region at the central level part, but brings huge distortions equator regions.
     \item In our case the input data to the model, geopotential height when subjected to the whole raster, the model in under consideration tends to overfit.
-    \item The ~\ref{cylindrical_results_table} depicts the MAE to measure the quality of the predictions of the precipitation on the average results.
+    \item The Table~\ref{cylindrical_results_table} depicts the MAE to measure the quality of the predictions of the precipitation on the average results.
 
 \end{itemize}
 \begin{table}[ht]
@@ -158,7 +158,7 @@ The trend for the training of the model
     \begin{tabular}{|l|c|c|c|c|c|}
         \hline
         \rowcolor[gray]{0.9}
-        \textbf{\emph{Project Name}}   & \textbf{\emph{Epochs}} & \textbf{\emph{MAE}} & \textbf{\emph{Validation MAE}} \\ \hline
+        \textbf{\emph{Projection}}     & \textbf{\emph{Epochs}} & \textbf{\emph{MAE}} & \textbf{\emph{Validation MAE}} \\ \hline
         Mercator                       & 20                     & 0.51                & 0.51                           \\ \hline
         Plate Carree                   & 20                     & 0.49                & 0.49                           \\ \hline
         Cylindrical Equal Area         & 20                     & 0.48                & 0.49                           \\ \hline

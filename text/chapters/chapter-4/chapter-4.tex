@@ -4,9 +4,18 @@
 
 \chapter{Related Work}
 \label{chap:related_work}
-@TODO: add opening paragraph for background information [usman]
+As we traverse the intricate terrain of geospatial data analysis in the realm of global Earth system models,
+it becomes of utmost importance to have a comprehensive grasp of the existing methodologies and advancements.
+This chapter starts on an extremely thorough investigation of the seminal works and groundbreaking research that
+have laid the foundation for the utilization of Convolutional Neural Networks (CNNs) in geospatial analysis.
+It delves deeply into the evolution of convolutional architectures, highlighting their application in various scientific
+fields beyond conventional image processing, encompassing their transformative potential in climatology, oceanography, and meteorology.
+By thoroughly analyzing both Euclidean and non-Euclidean convolutional operations, this discussion aspires to offer a contextual framework
+for the current research within the broader domain of deep learning investigation, highlighting the importance of adapting and optimizing CNNs
+to effectively exploit the complex, multidimensional nature of geospatial data.
+@TODO: review [usman]
 \section{Convolutions On Euclidean Space}
-\subsection{Convolutional Neural Networks CNN}
+\subsection{Convolutional Neural Networks (CNN)}
 With the advent of deep learning models, convolutional neural networks were developed primarily for solving the vision related tasks. These architectures are now being embraced across various scientific disciplines for the purpose of data analysis, owing to their utilization of convolutions.
 In case of the climate data studies where the observations obtained are subjected to spatial mapping via latitudes and longitudes, forming a grid like structure which could be analyzed by the Convolutional neural networks.
 Computer vision pertains to the examination of images, which are mostly multi-channel grids. In the case of RBG images, an image could be described as three grids stacked together, each grid containing information about a specific color (Red, Blue, Green) for a pixel. Similarly, geospatial data which is relevant under the same latitudes and longitudes mapping could be stacked together for the analysis harnessing the Convolutional Neural Networks (CNN).
@@ -52,7 +61,7 @@ This model is using the grid-format data for capturing the advanced features thr
 Even though the convolutional neural networks perform well in capturing the features in the planar data (grid) but this comes with a cost of creating deeper architectures as VGG16\cite{simonyan2015deep} with more than hundred million trainable parameters, VGG16 was utilized for image recognition task \cite{simonyan2015deep}.
 
 There has been attraction to attention mechanism, which tries to focus on the features extracted by the convolutions which have more data activity.
-Since convolution operations combine cross-channel and spatial information to extract informative features, The method proposed \cite{woo2018cbam} focuses on enhancing meaningful features along these two principal dimensions: channel and spatial axes [\cite{woo2018cbam}].
+Since convolution operations combine cross-channel and spatial information to extract informative features, The method proposed \cite{woo2018cbam} focuses on enhancing meaningful features along these two principal dimensions: channel and spatial axes \cite{woo2018cbam}.
 The utilization of the attention was separated into two parts first the learning of the channel attention and after that learning the spatial attention \cite{woo2018cbam}. This removes the unwanted clutter and focuses on only the relevant features \cite{woo2018cbam}.
 
 \begin{figure}[h]

@@ -130,12 +130,18 @@ Following this, the trained regressor, specifically the K-nearest neighbor in ou
 
 \section{raster data generation settings}
 This section explains the main arguments required to generate the raster data. The first argument of 'projection' takes in an enum value associated with the Proj.4 strings for different projections. The 'regressor\_type' takes the value of which regressor is used. The resolution argument plays an important role in defining the resolution of the raster and the input shape of the convolutional neural network used in the experimentation.
-\begin{lstlisting}[language=Python, caption=Pipeline raster data settings]
-class PipelineSettings(BaseModel):
-    projection: Projections
-    regressor_type: RegressorEnum
-    resolution: int 
-\end{lstlisting}
+\begin{itemize}
+    \item \textbf{Projection}: This argument provides the projection string according to the \textbf{Proj.4} format.
+    \item  \textbf{Regression Type}: This argument takes the regerssion type for raster data generation, for the experimentation K-nearest neighbor regression was used for dataset generation.
+    \item \textbf{Resolution}: The resolution is to define the height and the width of the raster, as raster data is in a grided form.
+\end{itemize}
+
+% \begin{lstlisting}[language=Python, caption=Pipeline raster data settings]
+% class PipelineSettings(BaseModel):
+%     projection: Projections
+%     regressor_type: RegressorEnum
+%     resolution: int 
+% \end{lstlisting}
 
 \section{Raster generation Step}
 \begin{algorithm}

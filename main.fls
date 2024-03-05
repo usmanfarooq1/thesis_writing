@@ -1060,12 +1060,12 @@ INPUT .\figures\chapter-8\got_loss.png
 INPUT .\figures\chapter-8\got_loss.png
 INPUT .\figures\chapter-8\got_loss.png
 INPUT C:\Users\Sheraz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\libertinus-type1\LibertinusSerif-BoldItalic-tlf-t1.tfm
-INPUT .\text\chapters\chapter-8\pseudo_cylindrical_projections.tex
-INPUT .\text\chapters\chapter-8\pseudo_cylindrical_projections.tex
-INPUT text\chapters\chapter-8\pseudo_cylindrical_projections.tex
 INPUT C:\Users\Sheraz\AppData\Local\Programs\MiKTeX\fonts\vf\public\libertinus-type1\LibertinusSerif-BoldItalic-tlf-t1.vf
 INPUT C:\Users\Sheraz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\libertinus-type1\LibertinusSerif-BoldItalic-tlf-t1--base.tfm
 INPUT C:\Users\Sheraz\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\libertinus-type1\lbts_opzo24.enc
+INPUT .\text\chapters\chapter-8\pseudo_cylindrical_projections.tex
+INPUT .\text\chapters\chapter-8\pseudo_cylindrical_projections.tex
+INPUT text\chapters\chapter-8\pseudo_cylindrical_projections.tex
 INPUT .\figures\chapter-8\geopoth_robin.png
 INPUT .\figures\chapter-8\geopoth_robin.png
 INPUT .\figures\chapter-8\geopoth_robin.png

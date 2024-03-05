@@ -40,7 +40,7 @@ Below are the main advatages of using convolutional neural networks:
 \begin{figure}[h]
     \centering
     \includegraphics[width=1.0\linewidth]{figures/chapter-4/han3-2955957-large.png}
-    \caption{Architecture for estimating subsurface tempratures in Pacific Ocean (Source \cite{8913542}) }
+    \caption{Architecture for estimating subsurface temperatures in Pacific Ocean (Source \cite{8913542}) }
     \label{fig:architecture-pacific-ocean}
 \end{figure}
 
@@ -51,7 +51,7 @@ This model is using the grid-format data for capturing the advanced features thr
 \subsection{Convolutional Block Attention Module (CBAM)}
 Even though the convolutional neural networks perform well in capturing the features in the planar data (grid) but this comes with a cost of creating deeper architectures as VGG16\cite{simonyan2015deep} with more than hundred million trainable parameters, VGG16 was utilized for image recognition task \cite{simonyan2015deep}.
 
-There has been attraction to attention mechanism, which trys to focus on the features extracted by the convolutions which have more data activity.
+There has been attraction to attention mechanism, which tries to focus on the features extracted by the convolutions which have more data activity.
 Since convolution operations combine cross-channel and spatial information to extract informative features, The method proposed \cite{woo2018cbam} focuses on enhancing meaningful features along these two principal dimensions: channel and spatial axes [\cite{woo2018cbam}].
 The utilization of the attention was separated into two parts first the learning of the channel attention and after that learning the spatial attention \cite{woo2018cbam}. This removes the unwanted clutter and focuses on only the relevant features \cite{woo2018cbam}.
 
@@ -62,7 +62,7 @@ The utilization of the attention was separated into two parts first the learning
     \label{fig:cbam-image}
 \end{figure}
 
-Figure ~\ref{fig:cbam-image} depicts the two types of attention modules which applied in a squential manner for boosting the performance of the network\cite{woo2018cbam}.
+Figure ~\ref{fig:cbam-image} depicts the two types of attention modules which applied in a sequential manner for boosting the performance of the network\cite{woo2018cbam}.
 
 In the context of analyzing geospatial data, the utilization of CBAM has proven to enhance performance \cite{mao2023reconstructing}.
 The CBAM module utilization is also happening for nowcasting the precipitation \cite{trebing2021smaatunet}. Both \cite{mao2023reconstructing} \cite{trebing2021smaatunet} are being used on the smaller regions of the globe.
@@ -107,7 +107,7 @@ The calculation of the spherical convolution can be carried out in the harmonic 
 
 \begin{itemize}
     \item \textbf{Parameterized Differential Operators }\\
-          This technique performs effective convolutions on the manifolds which are approximated by the underlying meshes.In order to achieve these convolutions, the convolutionl kernels that can be learned are reparameterized into a linear combination of differential operators. In this technique the differential operators of different order take place of the cross correlation linear operators to find local features \cite{jiang2019spherical}. This approach is could also be used for modeling the climate data.
+          This technique performs effective convolutions on the manifolds which are approximated by the underlying meshes.In order to achieve these convolutions, the convolutional kernels that can be learned are reparameterized into a linear combination of differential operators. In this technique the differential operators of different order take place of the cross correlation linear operators to find local features \cite{jiang2019spherical}. This approach is could also be used for modeling the climate data.
           For the experimentation, U-Net based architecture is deployed.
 
 \end{itemize}
@@ -127,4 +127,4 @@ In \cite{zhao2019spherical}, \textbf{Direct Neighbor (DiNe)} filters and convolu
 \end{figure}
 
 \section{Sphere2Vec}
-This is an encoder model which is trying to mitigate the distortion of distance that arises from the map projections. This method can encode spherical coordinates by abstaining from the distortions of the map projections and spherical to Euclidean distance approimation errors \cite{mai2023sphere2vec}. 2D Discrete Fourier Transform basis are used in the technique of multi-scale encoding to measure the acurate distances on the sphere \cite{mai2023sphere2vec}. While \cite{mai2023sphere2vec} also argues about the incapability of 2D and NeRF-style 3D location encoders to correctly find spherical distances.
+This is an encoder model which is trying to mitigate the distortion of distance that arises from the map projections. This method can encode spherical coordinates by abstaining from the distortions of the map projections and spherical to Euclidean distance approimation errors \cite{mai2023sphere2vec}. 2D Discrete Fourier Transform basis are used in the technique of multi-scale encoding to measure the accurate distances on the sphere \cite{mai2023sphere2vec}. While \cite{mai2023sphere2vec} also argues about the incapability of 2D and NeRF-style 3D location encoders to correctly find spherical distances.

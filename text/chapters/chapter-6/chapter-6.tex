@@ -122,13 +122,13 @@ The previous section explains the data transformation. The transformation functi
     \label{fig:knn-learning}
 \end{figure}
 
-\section{Raster data generation}
+\section{Raster Data Generation}
 
 Generating the data raster according to the resolution entails a series of steps that utilize the Numpy spline function. The minimum and the maximum of the projected coordinates are calculated. By leveraging this information, it becomes possible to accurately generate equi-spaced projected coordinates that align with the desired resolution of the raster.
 The spline function considers the projected coordinates and utilizes them to generate equispaced coordinates. It achieves this by considering the raster's resolution and ensuring that the generated coordinates are distributed in a manner that aligns with the given resolution.
 Following this, the trained regressor, specifically the K-nearest neighbor in our case, is utilized to predict the values for the geographical data that will populate the raster. In our scenario, a raster of 240 by 240 was employed. This concludes the process of creating a singular raster.
 
-\section{raster data generation settings}
+\subsection{Generation Settings}
 This section explains the main arguments required to generate the raster data. The first argument of 'projection' takes in an enum value associated with the Proj.4 strings for different projections. The 'regressor\_type' takes the value of which regressor is used. The resolution argument plays an important role in defining the resolution of the raster and the input shape of the convolutional neural network used in the experimentation.
 \begin{itemize}
     \item \textbf{Projection}: This argument provides the projection string according to the \textbf{Proj.4} format.
@@ -143,7 +143,7 @@ This section explains the main arguments required to generate the raster data. T
 %     resolution: int 
 % \end{lstlisting}
 
-\section{Raster generation Step}
+\subsection{Generation Step}
 \begin{algorithm}
     \caption{Preprocessing steps}
     \label{}

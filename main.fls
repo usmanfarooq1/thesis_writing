@@ -944,6 +944,9 @@ INPUT .\figures\chapter-5\plate_caree_prect_raster.png
 INPUT .\text\chapters\chapter-8\chapter-8.tex
 INPUT .\text\chapters\chapter-8\chapter-8.tex
 INPUT text\chapters\chapter-8\chapter-8.tex
+INPUT .\text\chapters\chapter-8\cylindrical_projections.tex
+INPUT .\text\chapters\chapter-8\cylindrical_projections.tex
+INPUT text\chapters\chapter-8\cylindrical_projections.tex
 INPUT .\figures\chapter-8\geopoth_mercator.png
 INPUT .\figures\chapter-8\geopoth_mercator.png
 INPUT .\figures\chapter-8\geopoth_mercator.png
@@ -1057,6 +1060,9 @@ INPUT .\figures\chapter-8\got_loss.png
 INPUT .\figures\chapter-8\got_loss.png
 INPUT .\figures\chapter-8\got_loss.png
 INPUT C:\Users\Sheraz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\libertinus-type1\LibertinusSerif-BoldItalic-tlf-t1.tfm
+INPUT .\text\chapters\chapter-8\pseudo_cylindrical_projections.tex
+INPUT .\text\chapters\chapter-8\pseudo_cylindrical_projections.tex
+INPUT text\chapters\chapter-8\pseudo_cylindrical_projections.tex
 INPUT C:\Users\Sheraz\AppData\Local\Programs\MiKTeX\fonts\vf\public\libertinus-type1\LibertinusSerif-BoldItalic-tlf-t1.vf
 INPUT C:\Users\Sheraz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\libertinus-type1\LibertinusSerif-BoldItalic-tlf-t1--base.tfm
 INPUT C:\Users\Sheraz\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\libertinus-type1\lbts_opzo24.enc
@@ -1138,6 +1144,9 @@ INPUT .\figures\chapter-8\sinu_loss.png
 INPUT .\figures\chapter-8\sinu_loss.png
 INPUT .\figures\chapter-8\sinu_loss.png
 INPUT .\figures\chapter-8\sinu_loss.png
+INPUT .\text\chapters\chapter-8\conic_projections.tex
+INPUT .\text\chapters\chapter-8\conic_projections.tex
+INPUT text\chapters\chapter-8\conic_projections.tex
 INPUT .\figures\chapter-8\geopoth_leac.png
 INPUT .\figures\chapter-8\geopoth_leac.png
 INPUT .\figures\chapter-8\geopoth_leac.png
@@ -1222,6 +1231,9 @@ INPUT .\figures\chapter-8\prect_lcca.png
 INPUT .\figures\chapter-8\prect_lcca.png
 INPUT .\figures\chapter-8\prect_lcca.png
 INPUT .\figures\chapter-8\prect_lcca.png
+INPUT .\text\chapters\chapter-8\plannar_projections.tex
+INPUT .\text\chapters\chapter-8\plannar_projections.tex
+INPUT text\chapters\chapter-8\plannar_projections.tex
 INPUT .\figures\chapter-8\geopoth_laea.png
 INPUT .\figures\chapter-8\geopoth_laea.png
 INPUT .\figures\chapter-8\geopoth_laea.png

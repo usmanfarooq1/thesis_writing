@@ -720,6 +720,8 @@ INPUT C:\Users\Sheraz\AppData\Local\Programs\MiKTeX\fonts\tfm\ascender\opensans\
 INPUT C:\Users\Sheraz\AppData\Local\Programs\MiKTeX\fonts\vf\ascender\opensans\OpenSans-Bold-T1-TLF.vf
 INPUT C:\Users\Sheraz\AppData\Local\Programs\MiKTeX\fonts\tfm\ascender\opensans\OpenSans-Bold-T1-TLF--base.tfm
 INPUT C:\Users\Sheraz\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\opensans\a_jg4h6q.enc
+INPUT C:\Users\Sheraz\AppData\Local\Programs\MiKTeX\fonts\vf\public\libertinus-type1\LibertinusSerif-Bold-tlf-t1.vf
+INPUT C:\Users\Sheraz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\libertinus-type1\LibertinusSerif-Bold-tlf-t1--base.tfm
 INPUT C:\Users\Sheraz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\libertinus-type1\LibertinusSerif-Regular-tlf-t1.tfm
 INPUT C:\Users\Sheraz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\libertinus-type1\LibertinusSerif-Bold-tlf-t1.tfm
 INPUT C:\Users\Sheraz\AppData\Local\Programs\MiKTeX\tex\latex\libertinus-type1\ts1libertinusserif-tlf.fd
@@ -736,8 +738,6 @@ INPUT C:\Users\Sheraz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\libertinus-
 INPUT C:\Users\Sheraz\AppData\Local\Programs\MiKTeX\fonts\vf\public\libertinus-type1\LibertinusSerif-Regular-tlf-ts1.vf
 INPUT C:\Users\Sheraz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\libertinus-type1\LibertinusSerif-Regular-tlf-ts1--base.tfm
 INPUT C:\Users\Sheraz\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\libertinus-type1\lbts_rlktsf.enc
-INPUT C:\Users\Sheraz\AppData\Local\Programs\MiKTeX\fonts\vf\public\libertinus-type1\LibertinusSerif-Bold-tlf-t1.vf
-INPUT C:\Users\Sheraz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\libertinus-type1\LibertinusSerif-Bold-tlf-t1--base.tfm
 INPUT .\text\chapters\chapter-2\geo_graphical_earth_model.tex
 INPUT .\text\chapters\chapter-2\geo_graphical_earth_model.tex
 INPUT text\chapters\chapter-2\geo_graphical_earth_model.tex

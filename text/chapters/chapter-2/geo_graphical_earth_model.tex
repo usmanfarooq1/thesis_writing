@@ -39,19 +39,25 @@ The Earth geoid is a model that is defined by the average global sea level and i
 
 This model serves as a theoretical representation that aims to address the irregularities found on the actual Earth's surface. To calculate the mean sea level (MSL),
 we need to average the actual sea levels on the global level.
-As the majority of the Earth is covered by oceans, but also features substantial land masses, it is crucial to account for both when conducting these calculations.
-This can be achieved by hypothetically filling the land masses with oceanic waters, thereby considering the resulting water surface as the mean sea level on land. Despite the seemingly straightforward nature of constructing the geoid model, researchers are actively gathering data and developing methods to accurately depict this model.
-NASA's GRACE Mission and the European Space Agency (ESA)'s GOCE missions are separately measuring the Earth's gravity field that helps in the calculations for generating the geoid model.
-In the field of geodesy this geoid model plays an important role for making calculations and determine positions on the surface of the Earth. Moreover, the study of the geoid extends beyond geodesy and is also pertinent to climate research\cite{GISGEO_GEOID}. The geoid model is considered the true representation of the Earth's surface and shape.
 
-\begin{figure}[h]
+As the majority of the Earth is covered by oceans, but also features substantial land masses, it is crucial to account for both when conducting these calculations.
+This can be achieved by hypothetically filling the land masses with oceanic waters, thereby considering the resulting water surface as the mean sea level on land.
+\begin{figure}[H]
     \centering
-    \includegraphics[width=0.7\linewidth]{figures/chapter-2/geoid.jpg}
+    \includegraphics[width=0.5\linewidth]{figures/chapter-2/geoid.jpg}
     \caption{Geoid: The Potsdam Gravity Potato (Source \cite{GEOID_IMAGE}) }
     \label{fig:geoid-image}
 \end{figure}
+Despite the seemingly straightforward nature of constructing the geoid model, researchers are actively gathering data and developing methods to accurately depict this model.
+NASA's GRACE Mission and the European Space Agency (ESA)'s GOCE missions are separately measuring the Earth's gravity field that helps in the calculations for generating the geoid model.
+In the field of geodesy this geoid model plays an important role for making calculations and determine positions on the surface of the Earth.
 
-Still the geoid as depicted in the above image is not a smooth surface that makes it impossible for making direct calculations. Although the irregularities in the Earth's shape have been somewhat mitigated, they still persist to some extent. Thus, the need for a simpler model to accurately represent the Earth remains for geospatial data analysis.
+Moreover, the study of the geoid extends beyond geodesy and is also pertinent to climate research\cite{GISGEO_GEOID}.
+The geoid model is considered the true representation of the Earth's surface and shape.
+
+
+
+Still the geoid as depicted in Figure \ref{fig:geoid-image} is not a smooth surface that makes it impossible for making direct calculations. Although the irregularities in the Earth's shape have been somewhat mitigated, they still persist to some extent. Thus, the need for a simpler model to accurately represent the Earth remains for geospatial data analysis.
 
 
 \subsection{Spherical Model}
@@ -63,7 +69,7 @@ Although, Spherical model of Earth is not a true fact but it provides a framewor
 The spherical model not only simplifies the underlying geoid model as it removes the irregularities of the geoid but also it eased the way to create the coordinate reference
 system which depends on latitudes and longitudes.
 These latitudes and longitudes are further being utilized in pointing the position of part of the Earth.
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.7\linewidth]{figures/chapter-2/lat_lon.png}
     \caption{Depiction of Latitudes and Longitudes (Source \cite{GISGEO_LatLon}) }
@@ -74,20 +80,21 @@ The latitudes and longitudes are calculated as angles from the equatorial line a
 correction is needed which bring us to the representation which is now being used for not only making correct positioning of points on Earth, but this representation is also being used for creating maps.
 
 \subsection{Ellipsoid Model}
-
-\begin{figure}[h]
+After the discovery of the gravitational force, Newton proposed that the Earth is a oblate spheroid or an ellipsoid.
+This representation of the Earth was confirmed using careful measurements \cite{Osserman2006-ys}.
+The Earth's ellipsoid depiction serves as a straightforward model that, much like the spherical approximation,
+streamlines the computations involved in analyzing geospatial data.
+This model overcomes the issue of the irregular surface shape of the geoid.
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.4\linewidth]{figures/chapter-2/elipsoid.png}
     \caption{An Ellipsoid (Source \cite{GISGEO_Ellipsoid}) }
     \label{fig:ellipsoid-image}
 \end{figure}
-After the discovery of the gravitational force, Newton proposed that the Earth is a oblate spheroid or an ellipsoid. This representation of the Earth was confirmed using careful measurements \cite{Osserman2006-ys}. The Earth's ellipsoid depiction serves as a straightforward model that, much like the spherical approximation, streamlines the computations involved in analyzing geospatial data.
-This model overcomes the issue of the irregular surface shape of the geoid.
-
 \subsection{Relationship between the ellipsoid and the geoid model}
 The geodesists opt for the ellipsoid model over the spherical model when establishing a coordinate reference system because it better represents the Earth's shape.
 
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.6\linewidth]{figures/chapter-2/Ellipsoid-height-relation.png}
     \caption{Relationship between the geoid model and reference ellipsoid(Source \cite{GISGEO_Ellipsoid}) }

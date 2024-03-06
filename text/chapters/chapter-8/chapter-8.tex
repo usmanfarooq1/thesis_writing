@@ -8,13 +8,14 @@
 
 In this chapter, we will analyze the outcomes of our extensive experimentation with various map projections and their impact on the performance
 of Convolutional Neural Networks (CNNs), specifically focusing on the U-Net architecture. By systematically applying these models to various types of
-map projections—cylindrical, pseudocylindrical, conic, and planar—we aim to clarify the subtle impacts these projections have on the accuracy and efficiency of
+map projections. We aim to clarify the subtle impacts these projections have on the accuracy and efficiency of
 geospatial data analysis. This inquiry is rooted in a comprehensive experimental structure devised to evaluate the model's capacity to forecast precipitation patterns
-from geospatial data inputs, thereby furnishing valuable insights into the optimal utilization of CNNs in the realm of geospatial analysis. Through this section,
-we strive to bridge the divide between theoretical knowledge and practical implementation, making a significant contribution to the advancement of the field by
-highlighting potential avenues for future research.
+from geospatial data inputs, thereby furnishing valuable insights into the optimal utilization of CNNs in the realm of geospatial analysis.
 
-@TODO review [usman]
+% Through this section,
+% we strive to bridge the divide between theoretical knowledge and practical implementation, making a significant contribution to the advancement of the field by
+% highlighting potential avenues for future research.
+
 % The experimentation is conducted on four different types of map projections, namely Cylindrical, Pseudocylindrical, Conic and Planar projections.
 % Then we have selected four map projections in each of the main projection types.
 % The U-Net model mentioned in \autoref{chap:approach} is trained for 20 epochs for each of the map projections. Initially 120 epochs were defined for the experimentation, for each of the models the phenomenon of overfitting started to occur over the training period, to mitigate the issue \textbf{early stopping} was deployed and each model was trained for 20 epochs.
@@ -39,12 +40,13 @@ duration of 20 epochs.
 In order to evaluate the performance of the U-Net model, the mean absolute error (MAE) is employed as a metric. This metric serves as a reliable measure to gauge
 the accuracy and precision of the model's predictions.
 \subsection{Raster Generation}
-Furthermore, a set of 16 geospatial raster datasets, each with a raster resolution of 240x240, were generated specifically for the purpose of this experimentation.
-These datasets were created using the raster creation process detailed in \autoref{chap:preprocess}. It is important to note that the reported loss and metrics discussed
+Furthermore, a set of 32 geospatial raster datasets, each with a raster resolution of 240x240, were generated specifically for the purpose of these experiments, 16 geopotential height map projected rasters datasets and 16 precipitation map projected rasters datasets.
+These datasets were created using the raster creation process detailed in \autoref{chap:preprocess}.
+It is important to note that the reported loss and metrics discussed
 in the results section represent average values. This is due to the fact that for each map projection dataset, the U-Net model is trained four times, thereby mitigating
 the potential impact of random variations in the network's parameters.
 \subsection{Model Training Analysis}
-The training progress of the models is meticulously documented for all four cylindrical projections, as well of the pseudocylindrical projections.
+The training progress of the models is meticulously documented for all four cylindrical projections, three of the pseudocylindrical projections.
 Additionally, the values of the evaluation metrics employed to assess the model's performance are presented in a concise tabular format.
 
 However, for the conic and planar projections, only the evaluation metrics are showcased as these particular projections do not undergo the same level of detailed training

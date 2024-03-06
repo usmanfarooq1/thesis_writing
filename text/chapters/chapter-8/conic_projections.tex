@@ -106,18 +106,34 @@ The selected conic projections for the experimentation are mentioned below:
     \item The training and the validation loss for the selected conic projections is depited in the table ~\ref{conic_results_table}, showing that model is not able to learn for these experiments.
     \item The metric to depict prediction is depicted in the ~\ref{conic_results_table}.
 \end{itemize}
-\begin{table}[ht]
+% \begin{table}[ht]
+%     \centering
+%     \caption{Summary of Conic Projection Model Performance}
+%     \label{conic_results_table}
+%     \renewcommand{\arraystretch}{1.2} % Adjusts the row height
+%     \begin{tabular}{|l|c|c|c|c|c|}
+%         \hline
+%         \rowcolor[gray]{0.9}
+%         \textbf{\emph{Projection}}          & \textbf{\emph{Epochs}} & \textbf{\emph{MAE}} & \textbf{\emph{Validation MAE}} & \textbf{\emph{Loss}} & \textbf{\emph{Validation Loss}} \\ \hline                                                                                                                                                         \\ \hline
+%         Lambert Equal Area Conic            & 20                     & 0.597               & 0.608                          & 0.770                & 0.786                           \\ \hline
+%         Albers Equal Area                   & 20                     & 0.644               & 0.656                          & 0.653                & 0.678                           \\ \hline
+%         Vitkovsky I                         & 20                     & 0.657               & 0.664                          & 0.741                & 0.757                           \\ \hline
+%         Lambert Conformal Conic Alternative & 20                     & 0.670               & 0.674                          & 0.788                & 0.793                           \\ \hline
+%     \end{tabular}
+% \end{table}
+
+\begin{table}[H]
     \centering
-    \caption{Summary of Conic Projection Model Performance}
+    \caption{Summary of Pseudocylindrical Projection Model Performance}
     \label{conic_results_table}
     \renewcommand{\arraystretch}{1.2} % Adjusts the row height
-    \begin{tabular}{|l|c|c|c|c|}
+    \begin{tabular}{|l|c|c|c|c|c|}
         \hline
         \rowcolor[gray]{0.9}
-        \textbf{\emph{Projection}}          & \textbf{\emph{\# Epochs}} & \textbf{\emph{MAE}} & \textbf{\emph{Validation MAE}} \\ \hline
-        Lambert Equal Area Conic            & 20                        & 0.597               & 0.608                          \\ \hline
-        Albers Equal Area                   & 20                        & 0.644               & 0.656                          \\ \hline
-        Vitkovsky I                         & 20                        & 0.657               & 0.664                          \\ \hline
-        Lambert Conformal Conic Alternative & 20                        & 0.670               & 0.674                          \\ \hline
+        \textbf{\emph{Projection}}          & \textbf{\emph{\# Epochs}} & \textbf{\emph{MAE}} & \textbf{\emph{Validation MAE}} & \textbf{\emph{Loss}} & \textbf{\emph{Validation Loss}} \\ \hline
+        Lambert Equal Area Conic            & 20                        & 0.597               & 0.608                          & 0.770                & 0.786                           \\ \hline
+        Albers Equal Area                   & 20                        & 0.644               & 0.656                          & 0.653                & 0.678                           \\ \hline
+        Vitkovsky I                         & 20                        & 0.657               & 0.664                          & 0.741                & 0.757                           \\ \hline
+        Lambert Conformal Conic Alternative & 20                        & 0.670               & 0.674                          & 0.788                & 0.793                           \\ \hline
     \end{tabular}
 \end{table}

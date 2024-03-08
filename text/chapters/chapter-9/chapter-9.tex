@@ -12,4 +12,12 @@ By utilizing a U-Net based architecture that was intentionally designed to be sh
 
 The performance of the cylindrical projections in the experiments surpassed that of the other types of map projections.
 The research revealed that although 2D convolutions on map-projected raster data excel in capturing spatial features by taking into account the relationships between neighboring elements,
-they inherently convey the distortions specific to their respective projections, thus illustrating the limitations of 2D convolutions. The primary constraint identified is the insufficiency of two-dimensional convolutions, which operate on Euclidean planes, to comprehensively tackle the distortions caused by map projections.
+they inherently convey the distortions specific to their respective projections, thus illustrating the limitations of 2D convolutions.
+The primary constraint identified is the insufficiency of two-dimensional convolutions, which operate on Euclidean planes,
+to comprehensively tackle the distortions caused by map projections.
+
+\subsection*{Future Work}
+This thesis bring forward the issue of representing  the Earth using map projections, which does not capture the true shape.
+The convolutions on the Euclidean plane were not able to mitigate the distortions. A need to move in the direction of the representing the Earth in \textbf{Non Euclidean space}.
+Spherical CNN are proposed which are performing convolutions on the sphere. Through this approach,
+the representation of the data is much closer to the Earth shape. Which would be able to mitigate some if not all of the distortions seen by the map projections.

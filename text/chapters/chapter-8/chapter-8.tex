@@ -28,7 +28,7 @@ from geospatial data inputs, thereby furnishing valuable insights into the optim
 
 \section{Experimental Setup}
 The experimentation is carried out on a total of four distinct types of map projections, specifically Cylindrical, Pseudocylindrical, Conic, and Planar projections.
-To ensure comprehensive coverage, we have carefully chosen four map projections within each of these main projection types.
+To ensure comprehensive coverage, I have carefully chosen four map projections within each of these main projection types, these projections are chosen on the distortions that these projections are trying to preserve.
 
 \subsection{Early Stopping}
 The U-Net model, as mentioned in \autoref{chap:approach}, undergoes a training process comprising 20 epochs for each of the map projections.
@@ -66,5 +66,30 @@ various map projections under consideration.
 \input{text/chapters/chapter-8/plannar_projections.tex}
 
 
-The experiments performed provides us the valauable insights for the usage of different types of map projections. Even though there are various map projections that could be used for the experimentation but the underlying
-distortions by them will be effecting the analysis. Now we will conclude and propose the future endeavour for the search of a better Earth model for the geospatial analysis.
+Now, I will compare each map projection type by the values of MAE observed during the training process.
+
+\begin{table}[ht]
+    \centering
+    \caption{Summary of The Used Projection Types}
+    \label{cylindrical_results_table}
+    \renewcommand{\arraystretch}{1.2} % Adjusts the row height
+    \begin{tabular}{|l|c|c|c|c|c|}
+        \hline
+        \rowcolor[gray]{0.9}
+        \textbf{\emph{Projection Types}} & \textbf{\emph{Validation MAE}} \\ \hline
+        Cylindrical                      & 0.49-0.51                      \\ \hline
+        Pseudocylindrical                & 0.61-0.64                      \\ \hline
+        Conic                            & 0.60-0.67                      \\ \hline
+        Planar                           & 0.62-0.78                      \\ \hline
+    \end{tabular}
+\end{table}
+
+\begin{itemize}
+    \item The MAE values for the \textbf{cylindrical projections} were better as compared to the other types of the projections.
+          The value of the MAE for all the cylindrical projections was around 0.50.
+    \item The value of the metric for \textbf{pseudocylindrical projections} is increasing as compared to the cylindrical projections, The metric is performing worst in this case.
+    \item The value of the metric for \textbf{conic projections} is increasing and the prediction of the precipitation are getting worst.
+    \item \textbf{Planar projections} have shown the most results as the values are between 0.62 and 0.78.
+\end{itemize}
+
+The Cylindrical Projections have performed better then all of the projection types. Now I will conclude and propose the future endeavour for the search of a better representation of the Earth for the geospatial analysis.

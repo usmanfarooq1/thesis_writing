@@ -6,8 +6,8 @@
 \label{chap:preprocess}
 \begin{figure}[h]
     \centering
-    \includegraphics[width=1.0\linewidth]{figures/chapter-7/preprocessing_pipeline.png}
-    \caption{Geospatial Pre-Processing Pipeline}
+    \includegraphics[width=1.0\linewidth]{figures/chapter-7/pipeline.png}
+    \caption{Geospatial Preprocessing Pipeline}
     \label{fig:preprocessingpipeline}
 \end{figure}
 The preceding sections thoroughly explain the geospatial data used to evaluate the convolutions on map projections. In geospatial analysis, the raw data, which maps geo coordinates to the data, cannot be used directly. Scientists commonly employ a preprocessing step to analyze the geospatial data. The data in use, which consists of the monthly observations of geopotential height and precipitation, needs to go through a process and be transformed into a format that could be easily analyzed.
@@ -15,23 +15,23 @@ The preceding sections thoroughly explain the geospatial data used to evaluate t
 There are two ways to transform the raw data into reduced spatial entities. These reduced spatial entities are classified as Vector or Raster data models, both acceptable by most GIS software.
 
 As our interest is in map projections, the purpose of the preprocessing pipeline is to generate map projection rasters from the raw data. Different Python libraries are utilized for this raster generation.
-Sections \autoref{section:proj} \autoref{section:pyproj} explain these tools and libraries.
+Sections \autoref{section:proj} explain these tools and libraries.
 
 \section{Data Raster}
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.75\linewidth]{figures/chapter-5/precipitation_raster.png}
-    \caption{Precipitation raster data with dimensions 96x144}
+    \caption{Precipitation raster data with dimensions 96x144 (Date: 2350-01-15)}
     \label{fig:precipitation-raster}
 \end{figure}
 Raster data is employed in the analysis of geographical data. A raster is a grid structure containing data, wherein each cell signifies the data's actual value. The raster's coordinates are determined by its resolution, mapped to the transformed projected reference system coordinates.
 
 
 \section{Proj and python's pyproj Package}
-
+\label{section:proj}
 
 \subsection{Proj}
-\label{section:proj}
+
 The primary purpose of PROJ is that it is a coordinate transformation
 software. It converts the geospatial coordinates from one coordinate reference system (CRS) to another CRS \cite{PROJ_SITE}.
 The software allows transformations to cartographic projection or projected reference systems and geodetic reference systems \cite{PROJ_SITE}.
@@ -39,7 +39,7 @@ The PROJ software provides a command-line interface to interact with its main fu
 The command-line interface can transform from the coordinates provided as user input or files \cite{PROJ_SITE}.
 It also exposes an API to interact programmatically \cite{PROJ_SITE}. The ease of usage to interact with the functionality of the PROJ software makes it a popular choice among the different Python libraries and packages that process geospatial data.
 
-\textbf{Cartopy} is a popular package for geospatial data visualization. It also uses PROJ when dealing with coordinate reference system transformations. Different data visualization and processing libraries, such as matplotlib, array, and geoPandas, provide interfaces to incorporate Cartopy.
+\textbf{Cartopy} \cite{Cartopy} is a popular package for geospatial data visualization. It also uses PROJ when dealing with coordinate reference system transformations. Different data visualization and processing libraries, such as matplotlib, array, and geoPandas, provide interfaces to incorporate Cartopy.
 
 The PROJ software provides an extensive list of map projections. Though the number of map projections in the literature is too great to incorporate into the software, it still provides ample map projections. The software also provides a geodetic transformation facility.
 
@@ -124,7 +124,7 @@ Thus, it completes the transformation of the latitude and longitude pairs to the
 
 
 \section{Data Interpolation }
-It is common practice to analyze geospatial data by generating data rasters, which can be of any dimension. In our case, the resolution or dimension of the data is 240 by 240. The chapter concerning data explains the dimensions of the original data. If we place the data in the 240 by 240 grid, that data grid would be sparse. A 240 by 240 grid means 57600 data points. The problem then becomes of the form of multivariate regression. Different regression algorithms are used to generate the rasters to overcome the issue of the data's sparsity.The preprocessing pipeline offers two types of regression algorithms.
+It is common practice to analyze geospatial data by generating data rasters, which can be of any dimension. In our case, the resolution or dimension of the data is 240 by 240. The chapter concerning data explains the dimensions of the original data. If we place the data in the 240 by 240 grid, that data grid would be sparse. A 240 by 240 grid means 57600 data points. The problem then becomes of the form of a multivariate regression as we are training the regression model by providing a pair of projected coordinates against the geospatial data. Different regression algorithms are used to generate the rasters to overcome the issue of the data's sparsity.The preprocessing pipeline offers two types of regression algorithms.
 
 \begin{itemize}
     \item K-nearest neighbor regression
@@ -133,7 +133,7 @@ It is common practice to analyze geospatial data by generating data rasters, whi
 For the experimentation, K-nearest neighbor regression is trained on the projected coordinates and the geographical data. K-nearest neighbors regression is a method utilized in statistical analysis for predicting continuous numerical values. The advantage of KNN regression is that it processes the data memory efficiently.
 
 The transformation function returns a mapping of the projected coordinates with the geographical data.
-This mapping is then used for the training of the k-nearest neighbor regressor. This regressor is trained by the hyperparameter of k=10. The machine learning library \textbf{sklearn} is used for the regression algorithms.
+This mapping is then used for the training of the k-nearest neighbor regressor. This regressor is trained by the hyperparameter of k=10. The machine learning library \textbf{scikit-learn} \cite{scikit-learn} is used for the regression algorithms.
 This step returns a trained regressor, which is used in the further steps for generating the data raster.
 \begin{figure}[h]
     \centering

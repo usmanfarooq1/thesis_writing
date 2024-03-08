@@ -68,13 +68,10 @@ The selection of the map projections is done based on the underlying properties 
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1.0\linewidth]{figures/chapter-8/pc_loss.png}
+    \includegraphics[width=1.0\linewidth]{figures/chapter-8/plate_loss.png}
     \caption{Plate Carree: Averaged training loss of models  }
     \label{fig:pc_loss}
 \end{figure}
-
-The trend for the training of the model
-
 
 \subsection{Cylindrical Equal Area}
 
@@ -140,7 +137,7 @@ The trend for the training of the model
 \begin{itemize}
     \item The Figure~\ref{fig:merc_loss} shows the average training loss for the U-Net model mentioned in the \autoref{chap:approach}, it could be seen that model's training loss is stabilizing and the trend of the validation loss is on a decrease.
           The model is being trained well for the Mercator projection, we need to consider the fact that we have trained a shallow model with less numbers of filters.
-    \item The Figure~\ref{fig:pc_loss} shows the average training loss decreasing and the trend of the validation loss is on an increase after the 17th epoch, with more training the model is on the path to overfit. Early stopping should have been used earlier for this projection dataset.
+    \item The Figure~\ref{fig:pc_loss} shows the average training loss decreasing and the trend of the validation loss is also on the decrease, leading to stabalized training.
     \item Figure~\ref{fig:cea_loss} depicts that the model in training is subjected to overfit very quickly in the training process. Just after the 7th epoch the model is overfitting.
     \item Figure~\ref{fig:got_loss} shows, the model start to overfit from the 5th epoch.
     \item As soon as the rasters which are generated to resolve some of the distortions occurring due to map projections the rasters.
@@ -164,6 +161,4 @@ The trend for the training of the model
         Cylindrical Equal Area         & 20                        & 0.48                & 0.49                           \\ \hline
         General Oblique Transformation & 20                        & 0.48                & 0.49                           \\ \hline
     \end{tabular}
-
-
 \end{table}

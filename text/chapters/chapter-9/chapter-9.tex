@@ -3,5 +3,13 @@
 \cleardoublepage
 
 \chapter{Conclusion and Future Work}
-
 \label{chap:conclusion_future_work}
+In this thesis, we established the understanding regarding the depiction of geospatial data on a global scale, and in order to achieve this, we opted for map projections for the global representation.
+We successfully established a comprehensive pipeline for generating map projected geospatial rasters. The map projections are inherently subjected to distortions, bring forward the challenge to accurate data representation and analysis.
+The main focus of this study to see the effects of 2D convolutions on four distinct types of map projections: cylindrical, pseudocylindrical, conic, and planar.
+
+By utilizing a U-Net based architecture that was intentionally designed to be shallow, we were able to concentrate specifically on the convolution effects rather than on the optimization of deep learning performance.
+
+The performance of the cylindrical projections in the experiments surpassed that of the other types of map projections.
+The research revealed that although 2D convolutions on map-projected raster data excel in capturing spatial features by taking into account the relationships between neighboring elements,
+they inherently convey the distortions specific to their respective projections, thus illustrating the limitations of 2D convolutions. The primary constraint identified is the insufficiency of two-dimensional convolutions, which operate on Euclidean planes, to comprehensively tackle the distortions caused by map projections.

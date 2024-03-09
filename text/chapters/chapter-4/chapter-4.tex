@@ -1,4 +1,3 @@
-
 \clearpage
 \cleardoublepage
 
@@ -45,7 +44,7 @@ Below are the main advantages of using convolutional neural networks:
 \end{itemize}
 
 
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
     \includegraphics[width=1.0\linewidth]{figures/chapter-4/han3-2955957-large.png}
     \caption{Architecture for estimating subsurface temperatures in Pacific Ocean (Source \cite{8913542}) }
@@ -63,7 +62,7 @@ There has been attraction to attention mechanism, which tries to focus on the fe
 Since convolution operations combine cross-channel and spatial information to extract informative features. The method proposed \cite{woo2018cbam} focuses on enhancing meaningful features along these two principal dimensions: channel and spatial axes.
 The utilization of the attention was separated into two parts first the learning of the channel attention and after that learning the spatial attention. This removes the unwanted clutter and focuses on only the relevant features \cite{woo2018cbam}.
 
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
     \includegraphics[width=1.0\linewidth]{figures/chapter-4/CBAM.png}
     \caption{Convolutional Block Attention Module (CBAM) (Source \cite{woo2018cbam}) }
@@ -80,7 +79,7 @@ The CBAM module utilization is also happening for nowcasting the precipitation \
 U-Net architecture was first used in the segmentation task for the medical images \cite{ronneberger2015unet}. The name of the architecture is because of its shape. This deep neural network architecture incorporates both the encode and the decoder parts in the same architecture. As mentioned the usage of the proposed architecture was to give each pixel of the image a class.
 
 
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
     \includegraphics[width=1.0\linewidth]{figures/chapter-4/unet.png}
     \caption{Original U-Net proposed for the segmentation of the medical images (Source \cite{ronneberger2015unet}) }
@@ -125,7 +124,7 @@ This architecture comes from the medical field, where the model is designed for 
 In \cite{zhao2019spherical}, \textbf{Direct Neighbor (DiNe)} filters and convolutions are proposed which use the consistent neighborhood orders on the spherical space\cite{zhao2019spherical}. Such an approach could be used for the geo science related machine learning tasks. The issue for such tasks would be the discretization of the geo-spatial data on the sphere.
 
 
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
     \includegraphics[width=1.0\linewidth]{figures/chapter-4/spherical_unet.png}
     \caption{Spherical U-Net for the brain cortical surface (Source \cite{zhao2019spherical}) }

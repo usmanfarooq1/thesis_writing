@@ -6,25 +6,25 @@
 
 \label{chap:experiments_results}
 
-In this chapter, we will analyze the outcomes of our extensive experimentation with various map projections and their impact on the performance
+In this chapter, I will analyze the outcomes of our extensive experimentation with various map projections and their impact on the performance
 of Convolutional Neural Networks (CNNs), specifically focusing on the U-Net architecture. By systematically applying these models to various types of
-map projections. We aim to clarify the subtle impacts these projections have on the accuracy and efficiency of
+map projections. I aim to clarify the subtle impacts these projections have on the accuracy and efficiency of
 geospatial data analysis. This inquiry is rooted in a comprehensive experimental structure devised to evaluate the model's capacity to forecast precipitation patterns
 from geospatial data inputs, thereby furnishing valuable insights into the optimal utilization of CNNs in the realm of geospatial analysis.
 
 % Through this section,
-% we strive to bridge the divide between theoretical knowledge and practical implementation, making a significant contribution to the advancement of the field by
+% I strive to bridge the divide between theoretical knowledge and practical implementation, making a significant contribution to the advancement of the field by
 % highlighting potential avenues for future research.
 
 % The experimentation is conducted on four different types of map projections, namely Cylindrical, Pseudocylindrical, Conic and Planar projections.
-% Then we have selected four map projections in each of the main projection types.
+% Then I have selected four map projections in each of the main projection types.
 % The U-Net model mentioned in \autoref{chap:approach} is trained for 20 epochs for each of the map projections. Initially 120 epochs were defined for the experimentation, for each of the models the phenomenon of overfitting started to occur over the training period, to mitigate the issue \textbf{early stopping} was deployed and each model was trained for 20 epochs.
 % Mean absolute error (MAE) is used as a metric for the evaluation of the model.
 
 % 16 geospatial raster datasets with the raster resolution of 240x240 were generated for the experimentation, via the process of creating rasters as mentioned in \autoref{chap:preprocess}. The loss and the metrics discussed in the result section are the average results, as for each map projection dataset the U-Net model is trained four times mitigating the issue of randomness in the network's parameters.
 
 % The training of the models is displayed for all of the 4 cylindrical projections and 3 of the pseudocylindrical projections, and the values of the metrics used for the evaluation of the model is displayed in a tabular form.
-% For the conic and the planar projections only the evaluation metrics are shown. In the end we will discuss the overall map projections.
+% For the conic and the planar projections only the evaluation metrics are shown. In the end I will discuss the overall map projections.
 
 \section{Experimental Setup}
 The experimentation is carried out on a total of four distinct types of map projections, specifically Cylindrical, Pseudocylindrical, Conic, and Planar projections.
@@ -71,7 +71,7 @@ Now, I will compare each map projection type by the values of MAE observed durin
 \begin{table}[ht]
     \centering
     \caption{Summary of The Used Projection Types}
-    \label{cylindrical_results_table}
+    \label{all_results_table}
     \renewcommand{\arraystretch}{1.2} % Adjusts the row height
     \begin{tabular}{|l|c|c|c|c|c|}
         \hline
@@ -92,4 +92,6 @@ Now, I will compare each map projection type by the values of MAE observed durin
     \item \textbf{Planar projections} have shown the most results as the values are between 0.62 and 0.78.
 \end{itemize}
 
-The Cylindrical Projections have performed better then all of the projection types. Now I will conclude and propose the future endeavour for the search of a better representation of the Earth for the geospatial analysis.
+The Cylindrical Projections have performed better then all of the projection types,
+but all the projections still contain the disortions accosicated with them.
+Now I will conclude and propose the future endeavour for the search of a better representation of the Earth for the geospatial data analysis.

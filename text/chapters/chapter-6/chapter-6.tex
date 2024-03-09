@@ -1,10 +1,10 @@
-
+\newpage
 \clearpage
 \cleardoublepage
 
 \chapter{Geospatial Data Pre-Processing Pipeline}
 \label{chap:preprocess}
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
     \includegraphics[width=1.0\linewidth]{figures/chapter-7/pipeline.png}
     \caption{Geospatial Pre-Processing Pipeline}
@@ -18,7 +18,7 @@ As our interest is in map projections, the purpose of the preprocessing pipeline
 Sections \autoref{section:proj} explain these tools and libraries.
 
 \section{Data Raster}
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.75\linewidth]{figures/chapter-5/precipitation_raster.png}
     \caption{Precipitation raster data with dimensions 96x144 (Date: 2350-01-15)}
@@ -57,7 +57,7 @@ The EPSG codes are one of the other standards for encoding CRS. EPSG codes are p
 The \textbf{Proj.4} strings do incorporate the projected reference system as well. The main advantage of using the \textbf{Proj.4} strings is that they are human-readable. It is a string that provides different parameters to control the different aspects of the geographic or projected transformation.
 Here is an example of a \textbf{Proj.4} string.
 
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
     \includegraphics[width=1.0\linewidth]{figures/chapter-7/proj_string_mercator.png}
     \caption{Proj.4 string for Mercator projection}
@@ -66,7 +66,7 @@ Here is an example of a \textbf{Proj.4} string.
 
 All the arguments in the \textbf{Proj.4} format string start with a plus (+) sign. The values are assigned to the arguments using an equal sign (=) The most prominent arguments of the string are +proj and +type. The +type argument tells the PROJ software which type of transformation occurs in the string.
 The type of transformation is between coordinate reference systems. The argument +proj tells the name of the projection. As shown in figure ~\ref{fig:proj-string-mercator} \textbf{Proj.4}  string +proj argument has the value of "merc," which indicates transformation happens to  Mercator projection.
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.5\linewidth]{figures/chapter-7/merc.png}
     \caption{Mercator projection (Source: \cite{PROJ_SITE})}
@@ -135,7 +135,7 @@ For the experimentation, K-nearest neighbor regression is trained on the project
 The transformation function returns a mapping of the projected coordinates with the geographical data.
 This mapping is then used for the training of the k-nearest neighbor regressor. This regressor is trained by the hyperparameter of k=10. The machine learning library \textbf{scikit-learn} \cite{scikit-learn} is used for the regression algorithms.
 This step returns a trained regressor, which is used in the further steps for generating the data raster.
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.5\linewidth]{figures/chapter-7/raster_interpolation.png}
     \caption{K-nearest neighbor learning}

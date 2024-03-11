@@ -16,20 +16,20 @@ they inherently convey the distortions specific to their respective projections,
 The primary constraint identified is the insufficiency of two-dimensional convolutions, which operate on Euclidean planes,
 to comprehensively tackle the distortions caused by map projections.
 
-\section*{Future Work}
+\section{Future Work}
 In this era where the geospatial data is being generated constantly and the ever growing need to analysis the geospatial data in various scientific and commercial fields. The need for the true depiction of the geospatial data is direly needed, so the data could be analyzed without the distortions of the map projections.
 To analyze geospatial data, now the direction in which has the potential is discussed.
-\subsection*{Convolutions On Non-Euclidean Spaces}
+\subsection{Convolutions On Non-Euclidean Spaces}
 The convolutions on the Euclidean plane were not able to mitigate the distortions.
 There is a need to move in the direction of the representing the Earth in \textbf{Non Euclidean space}.
 
-\subsubsection*{Sphere}
+\subsubsection{Sphere}
 Spherical CNN \cite{cohen2018spherical} are proposed which are performing convolutions on the sphere. Through this approach,
 the representation of the data is much closer to the Earth shape.
 Which would be able to mitigate some if not all of the distortions observed by the map projections.
 
 
-\subsubsection*{Ellipsoid}
+\subsubsection{Ellipsoid}
 While convolutions on sphere are performed using different approaches, these approaches are in some generalized for other purposes as well. For the geospatial data a more precise approach is needed.
 Rather than performing convolutions on a sphere, convolutions could be performed on an ellipsoid which could be defined by the reference ellipsoid used for collecting the geospatial data under consideration.
 This way the representation of the data would be much more nearer to the Earth shape than a sphere, making the usage specific to geospatial data.

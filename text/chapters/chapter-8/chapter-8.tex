@@ -40,11 +40,11 @@ duration of 20 epochs.
 In order to evaluate the performance of the U-Net model, the mean absolute error (MAE) is employed as a metric. This metric serves as a reliable measure to gauge
 the accuracy and precision of the model's predictions.
 \subsection{Raster Generation}
-Furthermore, a set of 32 geospatial raster datasets, each with a raster resolution of 240x240, were generated specifically for the purpose of these experiments, 16 geopotential height map projected rasters datasets and 16 precipitation map projected rasters datasets.
+Furthermore, a set of 32 geospatial raster datasets (each with a raster resolution of 240x240) were generated specifically for the purpose of these experiments, 16 geopotential height map projected rasters datasets and 16 precipitation map projected rasters datasets.
 These datasets were created using the raster creation process detailed in \autoref{chap:preprocess}.
 It is important to note that the reported loss and metrics discussed
 in the results section represent average values. This is due to the fact that for each map projection dataset, the U-Net model is trained four times, thereby mitigating
-the potential impact of random variations in the network's parameters.
+the potential impact of random variations in the network's parameters. All the results and values are averaged out.
 \subsection{Model Training Analysis}
 The training progress of the models is meticulously documented for all four cylindrical projections, three of the pseudocylindrical projections.
 Additionally, the values of the evaluation metrics employed to assess the model's performance are presented in a concise tabular format.

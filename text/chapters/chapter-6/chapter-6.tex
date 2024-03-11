@@ -4,7 +4,7 @@
 
 \chapter{Geospatial Data Pre-Processing Pipeline}
 \label{chap:preprocess}
-\begin{figure}[H]
+\begin{figure}[h]
     \centering
     \includegraphics[width=1.0\linewidth]{figures/chapter-7/pipeline.png}
     \caption{Geospatial Pre-Processing Pipeline}
@@ -39,7 +39,7 @@ The PROJ software provides a command-line interface to interact with its main fu
 The command-line interface can transform from the coordinates provided as user input or files \cite{PROJ_SITE}.
 It also exposes an API to interact programmatically \cite{PROJ_SITE}. The ease of usage to interact with the functionality of the PROJ software makes it a popular choice among the different Python libraries and packages that process geospatial data.
 
-\textbf{Cartopy} \cite{Cartopy} is a popular package for geospatial data visualization. It also uses PROJ when dealing with coordinate reference system transformations. Different data visualization and processing libraries, such as matplotlib, array, and geoPandas, provide interfaces to incorporate Cartopy.
+\textbf{Cartopy} \cite{Cartopy} is a popular package for geospatial data visualization. It also uses PROJ when dealing with coordinate reference system transformations. Different data visualization and processing libraries provide interfaces to incorporate Cartopy.
 
 The PROJ software provides an extensive list of map projections. Though the number of map projections in the literature is too great to incorporate into the software, it still provides ample map projections. The software also provides a geodetic transformation facility.
 
@@ -109,7 +109,7 @@ As mentioned in the chapter introduction, the ultimate goal of the preprocessing
 
 Firstly, a CRS is specified for the coordinates that must go through the transformation into a projected reference system.
 After that, a conversion of the coordinates to the projected reference system is possible.
-This distinction was necessary because a CRS or a PRS are simply float numbers.
+This distinction was necessary because a CRS or Projected Reference System are simply float numbers.
 The range of the latitudes and longitudes for CRS in ESPG:4326 is from -90 to -90 and 0 to 360, respectively.
 This base CRS ensures that data for conversion to the projected reference system does not violate the ranges.
 The actual value range of the longitudes is from -180 to 180, but PROJ allows the ranges above for the longitudes by radial calculations.
@@ -124,7 +124,7 @@ Thus, it completes the transformation of the latitude and longitude pairs to the
 
 
 \section{Data Interpolation }
-It is common practice to analyze geospatial data by generating data rasters, which can be of any dimension. In our case, the resolution or dimension of the data is 240 by 240. The chapter concerning data explains the dimensions of the original data. If we place the data in the 240 by 240 grid, that data grid would be sparse. A 240 by 240 grid means 57600 data points. The problem then becomes of the form of a multivariate regression as we are training the regression model by providing a pair of projected coordinates against the geospatial data. Different regression algorithms are used to generate the rasters to overcome the issue of the data's sparsity.The preprocessing pipeline offers two types of regression algorithms.
+It is common practice to analyze geospatial data by generating data rasters, which can be of any dimension. In our case, the resolution or dimension of the data is 240 by 240. The chapter concerning data explains the dimensions of the original data. If we place the data in the 240 by 240 grid, that data grid would be sparse. A 240 by 240 grid means 57600 data points. The problem then becomes of the form of a multivariate regression as we are training the regression model by providing a pair of projected coordinates against the geospatial data. Different regression algorithms are used to generate the rasters to overcome the issue of the data's sparsity. The preprocessing pipeline offers two types of regression algorithms.
 
 \begin{itemize}
     \item K-nearest neighbor regression
